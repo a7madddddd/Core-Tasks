@@ -1,44 +1,79 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using task_19_8.Models;
+﻿//using Microsoft.AspNetCore.Mvc;
+//using Microsoft.EntityFrameworkCore;
+//using task_19_8.Models;
 
-namespace task_19_8.Controllers
-{
-    [Route("api/[controller]")]
-    [ApiController]
-    public class CategoriesController : ControllerBase
-    {
-        private readonly MyDbContext _db;
+//namespace task_19_8.Controllers
+//{
+//    [Route("api/[controller]")]
+//    [ApiController]
+//    public class CategoriesController : ControllerBase
+//    {
+//        private readonly MyDbContext _db;
 
-        public CategoriesController(MyDbContext db) {
-            _db = db;
-        }
-        [HttpGet]
-        public IActionResult getAllCategories() {
-        
-            var categories = _db.Categories.ToList();
-            return Ok(categories);
-        }
-        [HttpGet("id")]
-        public IActionResult getCategories( int? id) {  
-            var oneProduct = _db.Categories.FirstOrDefault(b => b.CId == id);
-            return Ok(oneProduct);
-        }
+//        public CategoriesController(MyDbContext db)
+//        {
+//            _db = db;
+//        }
+
+//        [HttpGet]
+//        public IActionResult GetAllCategories()
+//        {
+//            var categories = _db.Categories.ToList();
+//            return Ok(categories);
+//        }
+
+//        [HttpGet("{id}")]
+//        public IActionResult GetCategoryById(int? id)
+//        {
+//            if (id == null)
+//            {
+//                return BadRequest("Category ID is required.");
+//            }
+
+//            var category = _db.Categories.FirstOrDefault(b => b.CId == id);
+
+//            if (category == null)
+//            {
+//                return NotFound();
+//            }
+
+//            return Ok(category);
+//        }
+
+//        [HttpGet("name/{name}")]
+//        public IActionResult GetCategoryByName(string name)
+//        {
+//            var category = _db.Categories.FirstOrDefault(b => b.CName == name);
+
+//            if (category == null)
+//            {
+//                return NotFound();
+//            }
+
+//            return Ok(category);
+//        }
 
 
 
-        //[HttpGet("id")]
-        //public IActionResult getCategory(int id) {
-        //    var category = _db.Categories.FirstOrDefault(c => c.CId == id);
-        //    return Ok(category);
-        //}
+//        [HttpDelete("{id}")]
+//        public IActionResult DeleteCategory(int id)
+//        {
+//            var category = _db.Categories.FirstOrDefault(b => b.CId == id);
+//            if (category == null)
+//            {
+//                return NotFound();
+//            }
+
+//            _db.Categories.Remove(category);
+//            _db.SaveChanges();
+
+//            return NoContent();
+
+
+//        }
+//    }
+//}
 
 
 
-        //[HttpGet("id")]
-        //public IActionResult allCategorys(int id) { 
-        //    var categories = _db.Categories.Find(id);
-        //            return Ok(categories);
-        //}
-    }
-}
+

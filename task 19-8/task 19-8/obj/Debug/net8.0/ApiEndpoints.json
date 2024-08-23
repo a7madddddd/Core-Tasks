@@ -1,8 +1,24 @@
 [
   {
-    "ContainingType": "task_19_8.Controllers.CategoriesController",
-    "Method": "getAllCategories",
-    "RelativePath": "api/Categories",
+    "ContainingType": "task_19_8.Controllers.Categories2Controller",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/Categories2/Api/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "task_19_8.Controllers.Categories2Controller",
+    "Method": "AllCategories",
+    "RelativePath": "api/Categories2/Api/categories",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,9 +26,25 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "task_19_8.Controllers.CategoriesController",
-    "Method": "getCategories",
-    "RelativePath": "api/Categories/id",
+    "ContainingType": "task_19_8.Controllers.Categories2Controller",
+    "Method": "CategoryByName",
+    "RelativePath": "api/Categories2/Api/Categories/name/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "task_19_8.Controllers.Categories2Controller",
+    "Method": "CategoriesById",
+    "RelativePath": "api/Categories2/Api/Category/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -20,33 +52,81 @@
       {
         "Name": "id",
         "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "task_19_8.Controllers.products2Controller",
+    "Method": "GetAllProduct",
+    "RelativePath": "api/products2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "task_19_8.Controllers.products2Controller",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/products2/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "task_19_8.Controllers.products2Controller",
+    "Method": "GetProductById",
+    "RelativePath": "api/products2/Api/product/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "task_19_8.Controllers.products2Controller",
+    "Method": "GetName",
+    "RelativePath": "api/products2/name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "task_19_8.Controllers.ProductsController",
-    "Method": "getAllProducts",
-    "RelativePath": "api/Products",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "task_19_8.Controllers.ProductsController",
-    "Method": "getProducts",
-    "RelativePath": "api/Products/id",
+    "ContainingType": "task_19_8.Controllers.UserController",
+    "Method": "ProductByID",
+    "RelativePath": "api/User/Api/product/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

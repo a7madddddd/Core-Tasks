@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:YourConnectionString",
+      "dynamicId": null
+    },
+    "appInsights1": {
+      "type": "appInsights"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:DESKTOP-QJHUPSA"
+    }
+  }
+}
