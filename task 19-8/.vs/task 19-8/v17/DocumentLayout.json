@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\task 19-8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{523A2739-5188-4FE4-B477-A76416BA1524}|task 19-8\\task 19-8.csproj|c:\\users\\orange\\desktop\\core-tasks\\task 19-8\\task 19-8\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{523A2739-5188-4FE4-B477-A76416BA1524}|task 19-8\\task 19-8.csproj|solutionrelative:task 19-8\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{523A2739-5188-4FE4-B477-A76416BA1524}|task 19-8\\task 19-8.csproj|c:\\users\\orange\\desktop\\core-tasks\\task 19-8\\task 19-8\\controllers\\products2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{523A2739-5188-4FE4-B477-A76416BA1524}|task 19-8\\task 19-8.csproj|solutionrelative:task 19-8\\controllers\\products2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{523A2739-5188-4FE4-B477-A76416BA1524}|task 19-8\\task 19-8.csproj|c:\\users\\orange\\desktop\\core-tasks\\task 19-8\\task 19-8\\controllers\\categories2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{523A2739-5188-4FE4-B477-A76416BA1524}|task 19-8\\task 19-8.csproj|solutionrelative:task 19-8\\controllers\\categories2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{523A2739-5188-4FE4-B477-A76416BA1524}|task 19-8\\task 19-8.csproj|c:\\users\\orange\\desktop\\core-tasks\\task 19-8\\task 19-8\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{523A2739-5188-4FE4-B477-A76416BA1524}|task 19-8\\task 19-8.csproj|solutionrelative:task 19-8\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -78,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\task 19-8\\task 19-8\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "task 19-8\\Properties\\launchSettings.json",
@@ -90,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "task 19-8.csproj",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\task 19-8\\task 19-8\\task 19-8.csproj",
               "RelativeDocumentMoniker": "task 19-8\\task 19-8.csproj",
@@ -103,45 +91,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\task 19-8\\task 19-8\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "task 19-8\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\task 19-8\\task 19-8\\Controllers\\UserController.cs",
-              "RelativeToolTip": "task 19-8\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T13:12:30.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "products2Controller.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\task 19-8\\task 19-8\\Controllers\\products2Controller.cs",
-              "RelativeDocumentMoniker": "task 19-8\\Controllers\\products2Controller.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\task 19-8\\task 19-8\\Controllers\\products2Controller.cs",
-              "RelativeToolTip": "task 19-8\\Controllers\\products2Controller.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwEoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T12:52:46.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Categories2Controller.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\task 19-8\\task 19-8\\Controllers\\Categories2Controller.cs",
-              "RelativeDocumentMoniker": "task 19-8\\Controllers\\Categories2Controller.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\task 19-8\\task 19-8\\Controllers\\Categories2Controller.cs",
-              "RelativeToolTip": "task 19-8\\Controllers\\Categories2Controller.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAkwF0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T11:37:19.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\task 19-8\\task 19-8\\appsettings.Development.json",
               "RelativeDocumentMoniker": "task 19-8\\appsettings.Development.json",
@@ -149,12 +98,11 @@
               "RelativeToolTip": "task 19-8\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-23T09:39:18.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T09:39:18.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\task 19-8\\task 19-8\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "task 19-8\\Controllers\\WeatherForecastController.cs",
@@ -166,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "task 19-8",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\task 19-8\\task 19-8\\task 19-8.csproj",
               "RelativeDocumentMoniker": "task 19-8\\task 19-8.csproj",
@@ -177,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\task 19-8\\task 19-8\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "task 19-8\\Controllers\\ProductsController.cs",
@@ -189,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\task 19-8\\task 19-8\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "task 19-8\\Controllers\\CategoriesController.cs",
@@ -201,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\task 19-8\\task 19-8\\appsettings.json",
               "RelativeDocumentMoniker": "task 19-8\\appsettings.json",
@@ -213,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\task 19-8\\task 19-8\\Program.cs",
               "RelativeDocumentMoniker": "task 19-8\\Program.cs",
@@ -222,6 +170,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T14:04:02.264Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
               "$type": "Bookmark",
