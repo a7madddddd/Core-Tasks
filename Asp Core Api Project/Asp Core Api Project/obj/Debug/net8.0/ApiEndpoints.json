@@ -143,6 +143,22 @@
   },
   {
     "ContainingType": "Asp_Core_Api_Project.Controllers.ProductsController",
+    "Method": "GetProductByCategoryId",
+    "RelativePath": "api/Products/Api/productByCategoryId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp_Core_Api_Project.Controllers.ProductsController",
     "Method": "GetName",
     "RelativePath": "api/Products/name",
     "HttpMethod": "GET",

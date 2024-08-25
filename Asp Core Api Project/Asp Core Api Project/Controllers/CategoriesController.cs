@@ -1,6 +1,7 @@
 ﻿using Asp_Core_Api_Project.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Asp_Core_Api_Project.Controllers
 {
@@ -56,8 +57,6 @@ namespace Asp_Core_Api_Project.Controllers
 
         [HttpGet]
         [Route("Api/Categories/name/{name}")]
-
-
         public IActionResult CategoryByName(string name)
         {
 
@@ -78,8 +77,12 @@ namespace Asp_Core_Api_Project.Controllers
         [HttpDelete("Api/{id}")]
         public IActionResult DeleteCategory(int id)
         {
-            var deleteCategory = _db.Categories.FirstOrDefault(c => c.CId == id);
+            var deleteCategory = _db.Categories.Include(x => x.Products).FirstOrDefault(c => c.CId == id);
 
+            if (deleteCategory.Products.Any())
+            {
+                return BadRequest("gggg");
+            }
 
             if (id < 1)
             {

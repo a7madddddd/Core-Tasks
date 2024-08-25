@@ -30,7 +30,6 @@ namespace Asp_Core_Api_Project.Controllers
 
         [HttpGet]
         [Route("Api/product/{id}")]
-
         public ActionResult GetProductById(int id)
         {
 
@@ -38,6 +37,21 @@ namespace Asp_Core_Api_Project.Controllers
             {
 
                 var ProductById = _db.Products.SingleOrDefault(c => c.PId == id);
+                return Ok(ProductById);
+            }
+
+            return NotFound();
+        }
+
+        [HttpGet]
+        [Route("Api/productByCategoryId/{id}")]
+        public ActionResult GetProductByCategoryId(int id)
+        {
+
+            if (id > 0)
+            {
+
+                var ProductById = _db.Products.SingleOrDefault(c => c.CId == id);
                 return Ok(ProductById);
             }
 

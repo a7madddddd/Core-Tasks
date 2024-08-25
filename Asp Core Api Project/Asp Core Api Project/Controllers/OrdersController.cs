@@ -21,7 +21,6 @@ namespace Asp_Core_Api_Project.Controllers
 
         [HttpGet]
         
-
         public IActionResult getAllOrders() {
 
             var AllOrders = _db.Orders.ToList();
@@ -33,7 +32,6 @@ namespace Asp_Core_Api_Project.Controllers
         [HttpGet("{id}")]
         public IActionResult GetORderById(int id)
         {
-
 
             if (id == 0)
             {
