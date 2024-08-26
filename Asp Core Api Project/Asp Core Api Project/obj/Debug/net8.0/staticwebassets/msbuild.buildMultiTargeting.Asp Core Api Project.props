@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Asp Core Api Project.props" />
-</Project>

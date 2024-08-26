@@ -1,100 +1,101 @@
-﻿using Asp_Core_Api_Project.Models;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿//using Asp_Core_Api_Project.Models;
+//using Microsoft.AspNetCore.Http;
+//using Microsoft.AspNetCore.Mvc;
+//using Microsoft.EntityFrameworkCore;
 
-namespace Asp_Core_Api_Project.Controllers
-{
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ProductsController : ControllerBase
-    {
-
-
-        private readonly MyDbContext _db;
-        public ProductsController(MyDbContext db)
-        {
-
-            _db = db;
-        }
+//namespace Asp_Core_Api_Project.Controllers
+//{
+//    [Route("api/[controller]")]
+//    [ApiController]
+//    public class ProductsController : ControllerBase
+//    {
 
 
-        [HttpGet]
+//        private readonly MyDbContext _db;
+//        public ProductsController(MyDbContext db)
+//        {
 
-        public ActionResult GetAllProduct()
-        {
-
-            var AllProducts = _db.Products.ToList();
-            return Ok(AllProducts);
-        }
+//            _db = db;
+//        }
 
 
-        [HttpGet]
-        [Route("Api/product/{id}")]
-        public ActionResult GetProductById(int id)
-        {
+//        [HttpGet]
 
-            if (id > 0)
-            {
+//        public ActionResult GetAllProduct()
+//        {
 
-                var ProductById = _db.Products.SingleOrDefault(c => c.PId == id);
-                return Ok(ProductById);
-            }
-
-            return NotFound();
-        }
-
-        [HttpGet]
-        [Route("Api/productByCategoryId/{id}")]
-        public ActionResult GetProductByCategoryId(int id)
-        {
-
-            if (id > 0)
-            {
-
-                var ProductById = _db.Products.SingleOrDefault(c => c.CId == id);
-                return Ok(ProductById);
-            }
-
-            return NotFound();
-        }
+//            var AllProducts = _db.Products.ToList();
+//            return Ok(AllProducts);
+//        }
 
 
-        [HttpGet("name")]
-        public ActionResult GetName(string name)
-        {
+//        [HttpGet]
+//        [Route("Api/product/{id}")]
+//        public ActionResult GetProductById(int id)
+//        {
 
-            if (name != null)
-            {
+//            if (id > 0)
+//            {
 
-                var productByName = _db.Products.Where(p => p.PName == name);
+//                var ProductById = _db.Products.SingleOrDefault(c => c.PId == id);
+//                return Ok(ProductById);
+//            }
 
-                return Ok(name);
-            }
+//            return NotFound();
+//        }
 
-            return NoContent();
-        }
+//        [HttpGet]
+//        [Route("Api/productByCategoryId/{id}")]
+//        public ActionResult GetProductByCategoryId(int id)
+//        {
+
+//            if (id > 0)
+//            {
+
+//                var ProductById = _db.Products.SingleOrDefault(c => c.CId == id);
+//                return Ok(ProductById);
+//            }
+
+//            return NotFound();
+//        }
 
 
-        [HttpDelete("{id}")]
+//        [HttpGet("name")]
+//        public ActionResult GetName(string name)
+//        {
+
+//            if (name != null)
+//            {
+
+//                var productByName = _db.Products.Where(p => p.PName == name);
+
+//                return Ok(name);
+//            }
+
+//            return NoContent();
+//        }
 
 
-        public IActionResult DeleteProduct(int id)
-        {
+//        [HttpDelete("{id}")]
 
 
-            if (id == 0)
-            {
+//        public IActionResult DeleteProduct(int id)
+//        {
 
-                return NotFound();
 
-            }
-            var deleteproduct = _db.Products.Where(p => p.PId == id).FirstOrDefault();
+//            if (id == 0)
+//            {
 
-            _db.Remove(deleteproduct);
-            _db.SaveChanges();
+//                return NotFound();
 
-            return NoContent();
+//            }
+//            var deleteproduct = _db.Products.Where(p => p.PId == id).FirstOrDefault();
 
-        }
-    }
-}
+//            _db.Remove(deleteproduct);
+//            _db.SaveChanges();
+
+//            return NoContent();
+
+//        }
+//    }
+//}

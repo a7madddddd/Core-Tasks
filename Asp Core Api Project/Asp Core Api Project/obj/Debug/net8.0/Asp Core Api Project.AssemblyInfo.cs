@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("21811c65-92de-4f7b-b7aa-7ab94088de0a")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Asp Core Api Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd88fef9827f379172721ca481c5b1cae7b1feab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2dd776aed93ff1452ed34a28c0a6d66d8dc5be1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Asp Core Api Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Asp Core Api Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

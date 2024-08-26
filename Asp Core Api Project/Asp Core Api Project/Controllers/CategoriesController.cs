@@ -1,101 +1,101 @@
-﻿using Asp_Core_Api_Project.Models;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+﻿//using Asp_Core_Api_Project.Models;
+//using Microsoft.AspNetCore.Http;
+//using Microsoft.AspNetCore.Mvc;
+//using Microsoft.EntityFrameworkCore;
 
-namespace Asp_Core_Api_Project.Controllers
-{
-    [Route("api/[controller]")]
-    [ApiController]
-    public class CategoriesController : ControllerBase
-    {
-
-
-        private readonly MyDbContext _db;
-
-        public CategoriesController(MyDbContext db)
-        {
-
-            _db = db;
-        }
-
-        [HttpGet]
-        [Route("Api/categories")]
-        public IActionResult AllCategories()
-        {
-
-            var AllCategories = _db.Categories.ToList();
-
-            return Ok(AllCategories);
-        }
+//namespace Asp_Core_Api_Project.Controllers
+//{
+//    [Route("api/[controller]")]
+//    [ApiController]
+//    public class CategoriesController : ControllerBase
+//    {
 
 
-        // Rout Attrebute
-        [HttpGet("Api/Category/{id}")]
+//        private readonly MyDbContext _db;
 
-        public IActionResult CategoriesById(int? id)
-        {
+//        public CategoriesController(MyDbContext db)
+//        {
 
-            if (id == null && id > 3)
-            {
-                return BadRequest();
-            }
+//            _db = db;
+//        }
 
-            else if (id != null)
-            {
+//        [HttpGet]
+//        [Route("Api/categories")]
+//        public IActionResult AllCategories()
+//        {
 
-                var productById = _db.Categories.Where(c => c.CId == id).FirstOrDefault();
+//            var AllCategories = _db.Categories.ToList();
 
-                return Ok(productById);
-            }
-
-            return BadRequest();
-
-        }
+//            return Ok(AllCategories);
+//        }
 
 
+//        // Rout Attrebute
+//        [HttpGet("Api/Category/{id}")]
 
-        [HttpGet]
-        [Route("Api/Categories/name/{name}")]
-        public IActionResult CategoryByName(string name)
-        {
+//        public IActionResult CategoriesById(int? id)
+//        {
 
-            if (name == null)
-            {
+//            if (id == null && id > 3)
+//            {
+//                return BadRequest();
+//            }
 
-                return NotFound();
-            }
-            else if (name != null)
-            {
+//            else if (id != null)
+//            {
 
-                var CategoriesByName = _db.Categories.Where(c => c.CName == name).ToList();
-                return Ok(CategoriesByName);
+//                var productById = _db.Categories.Where(c => c.CategoryId == id).FirstOrDefault();
 
-            }
-            return Ok();
-        }
-        [HttpDelete("Api/{id}")]
-        public IActionResult DeleteCategory(int id)
-        {
-            var deleteCategory = _db.Categories.Include(x => x.Products).FirstOrDefault(c => c.CId == id);
+//                return Ok(productById);
+//            }
 
-            if (deleteCategory.Products.Any())
-            {
-                return BadRequest("gggg");
-            }
+//            return BadRequest();
 
-            if (id < 1)
-            {
+//        }
 
-                return NotFound();
-            }
 
-            _db.Remove(deleteCategory);
-            _db.SaveChanges();
 
-            return NoContent();
+//        [HttpGet]
+//        [Route("Api/Categories/name/{name}")]
+//        public IActionResult CategoryByName(string name)
+//        {
 
-        }
-    }
-}
+//            if (name == null)
+//            {
+
+//                return NotFound();
+//            }
+//            else if (name != null)
+//            {
+
+//                var CategoriesByName = _db.Categories.Where(c => c.CategoryName == name).ToList();
+//                return Ok(CategoriesByName);
+
+//            }
+//            return Ok();
+//        }
+//        [HttpDelete("Api/{id}")]
+//        public IActionResult DeleteCategory(int id)
+//        {
+//            var deleteCategory = _db.Categories.Include(x => x.products ).FirstOrDefault(c => c.CategoryId == id);
+
+//            if (deleteCategory.Products.Any())
+//            {
+//                return BadRequest("gggg");
+//            }
+
+//            if (id < 1)
+//            {
+
+//                return NotFound();
+//            }
+
+//            _db.Remove(deleteCategory);
+//            _db.SaveChanges();
+
+//            return NoContent();
+
+//        }
+//    }
+//}
     

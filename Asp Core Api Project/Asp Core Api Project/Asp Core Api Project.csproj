@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Asp_Core_Api_Project</RootNamespace>
+    <UserSecretsId>21811c65-92de-4f7b-b7aa-7ab94088de0a</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
