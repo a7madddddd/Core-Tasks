@@ -1,101 +1,152 @@
-﻿//using Asp_Core_Api_Project.Models;
-//using Microsoft.AspNetCore.Http;
-//using Microsoft.AspNetCore.Mvc;
-//using Microsoft.EntityFrameworkCore;
+﻿using Asp_Core_Api_Project.DTOs;
+using Asp_Core_Api_Project.Models;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 
-//namespace Asp_Core_Api_Project.Controllers
-//{
-//    [Route("api/[controller]")]
-//    [ApiController]
-//    public class ProductsController : ControllerBase
-//    {
+namespace Asp_Core_Api_Project.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class ProductsController : ControllerBase
+    {
+        private readonly MyDbContext _db;
+        public ProductsController(MyDbContext db)
+        {
 
+            _db = db;
+        }
 
-//        private readonly MyDbContext _db;
-//        public ProductsController(MyDbContext db)
-//        {
+        [HttpGet]
+        public ActionResult GetAllProduct()
+        {
 
-//            _db = db;
-//        }
-
-
-//        [HttpGet]
-
-//        public ActionResult GetAllProduct()
-//        {
-
-//            var AllProducts = _db.Products.ToList();
-//            return Ok(AllProducts);
-//        }
+            var AllProducts = _db.Products.ToList();
+            return Ok(AllProducts);
+        }
 
 
-//        [HttpGet]
-//        [Route("Api/product/{id}")]
-//        public ActionResult GetProductById(int id)
-//        {
+        [HttpGet]
+        [Route("Api/product/{id}")]
+        public ActionResult GetProductById(int id)
+        {
 
-//            if (id > 0)
-//            {
+            if (id > 0)
+            {
 
-//                var ProductById = _db.Products.SingleOrDefault(c => c.PId == id);
-//                return Ok(ProductById);
-//            }
+                var ProductById = _db.Products.SingleOrDefault(c => c.PId == id);
+                return Ok(ProductById);
+            }
 
-//            return NotFound();
-//        }
+            return NotFound();
+        }
 
-//        [HttpGet]
-//        [Route("Api/productByCategoryId/{id}")]
-//        public ActionResult GetProductByCategoryId(int id)
-//        {
+        [HttpGet]
+        [Route("Api/productByCategoryId/{id}")]
+        public ActionResult GetProductByCategoryId(int id)
+        {
 
-//            if (id > 0)
-//            {
+            if (id > 0)
+            {
 
-//                var ProductById = _db.Products.SingleOrDefault(c => c.CId == id);
-//                return Ok(ProductById);
-//            }
+                var ProductById = _db.Products.SingleOrDefault(c => c.CId == id);
+                return Ok(ProductById);
+            }
 
-//            return NotFound();
-//        }
+            return NotFound();
+        }
+
+        [HttpGet("name")]
+        public ActionResult GetName(string name)
+        {
+
+            if (name != null)
+            {
+
+                var productByName = _db.Products.Where(p => p.PName == name);
+
+                return Ok(name);
+            }
+
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult DeleteProduct(int id)
+        {
+            if (id == 0)
+            {
+
+                return NotFound();
+            }
+            var deleteproduct = _db.Products.Where(p => p.PId == id).FirstOrDefault();
+
+            _db.Remove(deleteproduct);
+            _db.SaveChanges();
+
+            return NoContent();
+        }
 
 
-//        [HttpGet("name")]
-//        public ActionResult GetName(string name)
-//        {
+        [HttpPost]
+        public IActionResult PostProduct([FromForm] postProducts product)
+        {
 
-//            if (name != null)
-//            {
+            var data = new Product
+            {
+                PName = product.PName,
+                PImage = product.PImage.FileName
 
-//                var productByName = _db.Products.Where(p => p.PName == name);
+            };
 
-//                return Ok(name);
-//            }
+            var imagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
+            if (Directory.Exists(imagesFolder)) {
 
-//            return NoContent();
-//        }
+                Directory.CreateDirectory(imagesFolder);
+            }
 
+            var imagsFile = Path.Combine(imagesFolder, product.PImage.FileName);
+            using (var Stream = new FileStream(imagesFolder, FileMode.Create)) {
 
-//        [HttpDelete("{id}")]
+                product.PImage.CopyToAsync(Stream);
 
+            }
 
-//        public IActionResult DeleteProduct(int id)
-//        {
+            _db.Products.Add(data);
+            _db.SaveChanges();
+            return Ok();
 
+        }
 
-//            if (id == 0)
-//            {
+        [HttpPut("{id}")]
+        public async Task<IActionResult> putProduct([FromForm] postProducts product, int id)
+        {
+            var imagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
+            if (!Directory.Exists(imagesFolder))
+            {
+                Directory.CreateDirectory(imagesFolder);
+            }
 
-//                return NotFound();
+            var imagsFile = Path.Combine(imagesFolder, product.PImage.FileName);
+            using (var Stream = new FileStream(imagsFile, FileMode.Create))
+            {
+                await product.PImage.CopyToAsync(Stream);
+            }
 
-//            }
-//            var deleteproduct = _db.Products.Where(p => p.PId == id).FirstOrDefault();
+            var p = _db.Products.FirstOrDefault(p => p.PId == id);
+            if (p == null)
+            {
+                return NotFound();
+            }
 
-//            _db.Remove(deleteproduct);
-//            _db.SaveChanges();
+            p.PName = product.PName;
+            p.PImage = product.PImage.FileName;
 
-//            return NoContent();
+            _db.Products.Update(p);
+            await _db.SaveChangesAsync();
+            return Ok();
+        }
 
-//        }
-//    }
-//}
+    }
+}
+

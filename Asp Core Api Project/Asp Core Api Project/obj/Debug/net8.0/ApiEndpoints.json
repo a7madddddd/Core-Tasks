@@ -1,6 +1,27 @@
 [
   {
     "ContainingType": "Asp_Core_Api_Project.Controllers.CategoriesController",
+    "Method": "CategoryReqestDots",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CImage",
+        "Type": "Microsoft.AspNetCore.Http.FormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp_Core_Api_Project.Controllers.CategoriesController",
     "Method": "DeleteCategory",
     "RelativePath": "api/Categories/Api/{id}",
     "HttpMethod": "DELETE",
@@ -111,12 +132,79 @@
   },
   {
     "ContainingType": "Asp_Core_Api_Project.Controllers.ProductsController",
+    "Method": "PostProduct",
+    "RelativePath": "api/Products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PDes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PPric",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp_Core_Api_Project.Controllers.ProductsController",
     "Method": "DeleteProduct",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp_Core_Api_Project.Controllers.ProductsController",
+    "Method": "putProduct",
+    "RelativePath": "api/Products/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PDes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PPric",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
       {
         "Name": "id",
         "Type": "System.Int32",
@@ -185,12 +273,59 @@
   },
   {
     "ContainingType": "Asp_Core_Api_Project.Controllers.UserController",
+    "Method": "UserRequest",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsPas",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp_Core_Api_Project.Controllers.UserController",
     "Method": "deleteUser",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp_Core_Api_Project.Controllers.UserController",
+    "Method": "PutUserResponse",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsPas",
+        "Type": "System.String",
+        "IsRequired": false
+      },
       {
         "Name": "id",
         "Type": "System.Int32",
