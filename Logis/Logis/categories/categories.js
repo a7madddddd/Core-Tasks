@@ -41,7 +41,7 @@ async function allProducts() {
     const fetchall = await fetch(allProductsUrl);
     const request = await fetchall.json();
     const AllProducts = document.getElementById("AllProducts");
-
+    
     AllProducts.innerHTML = ""; // Clear the container before adding new content
 
     request.forEach(all => {
@@ -58,27 +58,11 @@ async function allProducts() {
     });
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ///////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////product by id ///////////////////////////////////////
 const restore = Number(sessionStorage.getItem("cId"));
 
-const pr_url = `https://localhost:44389/api/Products/Api/productByCategoryId/${restore}`;
+const pr_url = `https://localhost:44389/api/Categories/Api/Category/${restore}`;
 var productscontainer = document.getElementById("detailscontainer");
 async function getprodu(){
 debugger
@@ -96,7 +80,7 @@ debugger
             <div class="card-body">
                 <h5 class="card-title">${product.pName}</h5>
                 <p class="card-text">${product.pDes}.</p>
-                <a onclick="store(${product.pId})" class="btn btn-primary">Show Products</a>
+                <a onclick="store(${product.pId})" class="btn btn-primary"> Add To Ca   rt</a>
             </div>
          </div>
         `

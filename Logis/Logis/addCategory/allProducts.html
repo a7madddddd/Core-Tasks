@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .sidebar {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .sidebar ul li a:hover {
+            color: #ccc;
+        }
+
+        .sidebar ul li a.active {
+            color: #fff;
+            background-color: #444;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        #products-tbody img {
+
+            width: 15% !important;
+            height: 6vh !important;
+            border-radius: 100%;
+        }
+
+        #AllProductsContainer {
+            margin: 3% 10% 0 0;
+        }
+
+        #AllProductsContainer h1 {
+            margin: 3% 0 3% 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="sidebar">
+                        <br>
+                        <br>
+                    <ul>
+                        <li>
+                            <a href="#" class="active">BSR</a>
+                        </li>
+                        <br>
+                        <li>
+                            <a href="#">Categories</a>
+                        </li>
+                        <li>
+                            <a href="#"> Products</a>
+                        </li>
+                        <li>
+                            <a href="#">More</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-10">
+                <h1>Categories</h1>
+                <button class="btn btn-success">Add Category</button>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Category id</th>
+                            <th>Category Name</th>
+                            <th>Category image</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Category 1</td>
+                            <td>This is a description for Category 1</td>
+                            <td>
+                            <a href="../addCategory/editCategory.html"><button class="btn btn-primary">Edit</button></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Category 2</td>
+                            <td>This is a description for Category 2</td>
+                            <td>
+                            <a href="../addCategory/editCategory.html"><button class="btn btn-primary">Edit</button></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Category 3</td>
+                            <td>This is a description for Category 3</td>
+                            <td>
+                               <a href="../addCategory/editCategory.html"><button class="btn btn-primary">Edit</button></a> 
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div> -->
+
+    <div id="AllProductsContainer">
+    </div>
+    <script src="addProducts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>

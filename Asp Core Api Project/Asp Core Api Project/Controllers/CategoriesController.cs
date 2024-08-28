@@ -159,7 +159,7 @@ namespace Asp_Core_Api_Project.Controllers
         public IActionResult PutCategory([FromForm] CategoryReqeust categoryRequest, int id)
         {
             // Set the folder path to save the images
-            var imagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
+            var imagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "Uploadss");
 
             // Check if the directory exists; if not, create it
             if (!Directory.Exists(imagesFolder))

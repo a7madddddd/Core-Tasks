@@ -210,6 +210,47 @@
   },
   {
     "ContainingType": "Asp_Core_Api_Project.Controllers.ProductsController",
+    "Method": "PutProduct",
+    "RelativePath": "api/Products/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "PName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PDes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PPric",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "CId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp_Core_Api_Project.Controllers.ProductsController",
     "Method": "GetProductById",
     "RelativePath": "api/Products/Api/product/{id}",
     "HttpMethod": "GET",
@@ -357,6 +398,27 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp_Core_Api_Project.Controllers.ValuesController",
+    "Method": "result",
+    "RelativePath": "api/Values",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "n1",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "n2",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

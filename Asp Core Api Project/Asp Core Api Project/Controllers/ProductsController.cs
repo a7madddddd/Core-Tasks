@@ -91,133 +91,84 @@ namespace Asp_Core_Api_Project.Controllers
         [HttpPost]
         public IActionResult postProducts([FromForm] postProducts product)
         {
-            // Ensure the folder path to save the images
             var imagesFolderProducts = Path.Combine(Directory.GetCurrentDirectory(), "ProductsImages");
 
-            // Create the directory if it doesn't exist
             if (!Directory.Exists(imagesFolderProducts))
             {
                 Directory.CreateDirectory(imagesFolderProducts);
             }
 
-            // Initialize image name variable
-            string imageName = null;
-
-            // Handle image file upload if it's not null
             if (product.PImage != null)
             {
-                // Generate the full path for the image file
                 var imageFilePath = Path.Combine(imagesFolderProducts, product.PImage.FileName);
-                imageName = product.PImage.FileName;
 
-                // Save the image file to the specified path
                 using (var stream = new FileStream(imageFilePath, FileMode.Create))
                 {
-                    product.PImage.CopyTo(stream); // Synchronous file copy
+                    product.PImage.CopyToAsync(stream).Wait(); // Ensure the file copy operation completes before proceeding
                 }
             }
 
-            // Create a new Product instance with the uploaded image name
+            // Notice PId is not set explicitly here
             var dataa = new Product
             {
                 PName = product.PName,
                 PDes = product.PDes,
                 PPric = product.PPric,
-                PImage = imageName, // Save the image name in the database
+                PImage = product.PImage.FileName,
                 CId = product.CId
             };
 
-            // Add the product data to the database
             _db.Products.Add(dataa);
-            _db.SaveChanges(); // Synchronous save changes operation
+            _db.SaveChanges();
 
             return Ok();
         }
- 
-        //public IActionResult PostProduct([FromForm] postProducts product)
-        //{
-        //    // Ensure the folder path to save the images
-        //    var imagesFolderproducts = Path.Combine(Directory.GetCurrentDirectory(), "productsImages");
 
-        //    // Create the directory if it doesn't exist
-        //    if (!Directory.Exists(imagesFolderproducts))
-        //    {
-        //        Directory.CreateDirectory(imagesFolderproducts);
-        //    }
 
-        //    // Handle image file upload if it's not null
-        //    string imageName = null;
-        //    if (product.PImage != null)
-        //    {
-        //        imageName = product.PImage.FileName; // Get the file name
-        //        var imageFilePath = Path.Combine(imagesFolderproducts, imageName);
 
-        //        // Save the image file to the specified path
-        //        using (var stream = new FileStream(imageFilePath, FileMode.Create))
-        //        {
-        //            product.PImage.CopyTo(stream); // Save the file
-        //        }
-        //    }
 
-        //    // Create a new Product instance with the uploaded image name
-        //    var data = new Product
-        //    {
-        //        PName = product.PName,
-        //        PImage = imageName, // Save the image name in the database
-        //        PPric = product.PPric,
-        //        PDes = product.PDes,
-        //        CId = product.CId // Include the category ID if it's part of the model
-        //    };
+        [HttpPut("{id}")]
+        public IActionResult PutProduct(int id, [FromForm] postProducts product)
+        {
+            var existingProduct = _db.Products.FirstOrDefault(p => p.PId == id);
 
-        //    // Add the product data to the database
-        //    _db.Products.Add(data);
-        //    _db.SaveChanges();
+            if (existingProduct == null)
+            {
+                return NotFound();
+            }
 
-        //    return Ok();
-        //}
+            string imageName = existingProduct.PImage; // Keep existing image name if no new image is provided
 
-        //[HttpPut("{id}")]
-        //public IActionResult PutProduct(int id, [FromForm] postProducts product)
-        //{
-        //    var existingProduct = _db.Products.FirstOrDefault(p => p.PId == id);
+            if (product.PImage != null)
+            {
+                var imagesFolderproducts = Path.Combine(Directory.GetCurrentDirectory(), "productsImages");
+                if (!Directory.Exists(imagesFolderproducts))
+                {
+                    Directory.CreateDirectory(imagesFolderproducts);
+                }
 
-        //    if (existingProduct == null)
-        //    {
-        //        return NotFound();
-        //    }
+                imageName = product.PImage.FileName; // Get the new image name
+                var imageFilePath = Path.Combine(imagesFolderproducts, imageName);
 
-        //    string imageName = existingProduct.PImage; // Keep existing image name if no new image is provided
+                // Save the new image file
+                using (var stream = new FileStream(imageFilePath, FileMode.Create))
+                {
+                    product.PImage.CopyTo(stream);
+                }
+            }
 
-        //    if (product.PImage != null)
-        //    {
-        //        var imagesFolderproducts = Path.Combine(Directory.GetCurrentDirectory(), "productsImages");
-        //        if (!Directory.Exists(imagesFolderproducts))
-        //        {
-        //            Directory.CreateDirectory(imagesFolderproducts);
-        //        }
+            // Update the product details
+            existingProduct.PName = product.PName;
+            existingProduct.PImage = imageName; // Update image name
+            existingProduct.PPric = product.PPric;
+            existingProduct.PDes = product.PDes;
+            existingProduct.CId = product.CId;
 
-        //        imageName = product.PImage.FileName; // Get the new image name
-        //        var imageFilePath = Path.Combine(imagesFolderproducts, imageName);
+            _db.Products.Update(existingProduct);
+            _db.SaveChanges();
 
-        //        // Save the new image file
-        //        using (var stream = new FileStream(imageFilePath, FileMode.Create))
-        //        {
-        //            product.PImage.CopyTo(stream);
-        //        }
-        //    }
-
-        //    // Update the product details
-        //    existingProduct.PName = product.PName;
-        //    existingProduct.PImage = imageName; // Update image name
-        //    existingProduct.PPric = product.PPric;
-        //    existingProduct.PDes = product.PDes;
-        //    existingProduct.CId = product.CId;
-
-        //    _db.Products.Update(existingProduct);
-        //    _db.SaveChanges();
-
-        //    return Ok();
-        //}
+            return Ok();
+        }
 
 
 
