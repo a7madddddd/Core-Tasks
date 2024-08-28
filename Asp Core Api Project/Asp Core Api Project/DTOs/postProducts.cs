@@ -11,5 +11,7 @@ namespace Asp_Core_Api_Project.DTOs
         public string? PPric { get; set; }
 
         public IFormFile? PImage { get; set; }
+        public int? CId { get; set; }
+
     }
 }

@@ -115,17 +115,24 @@ namespace Asp_Core_Api_Project.Controllers
             };
 
             // Set the folder path to save the images
-            var imagesFolderCategory = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
+            var imagesFolderCategory = Path.Combine(Directory.GetCurrentDirectory(), "Images");
 
             // Check if the path is a file
-            if (Directory.Exists(imagesFolderCategory))
-            {
-                return StatusCode(500, "A file with the same name as the directory already exists.");
-            }
+            //if (Directory.Exists(imagesFolderCategory))
+            //{
+            //    return StatusCode(500, "A file with the same name as the directory already exists.");
+            //}
 
             // Define the full path for the image file if CImage is not null
             if (Categories.CImage != null)
             {
+                // Check if the directory does not exist and create it if necessary
+                if (!Directory.Exists(imagesFolderCategory))
+                {
+                    Directory.CreateDirectory(imagesFolderCategory);
+                }
+
+
                 var imagsFile = Path.Combine(imagesFolderCategory, Categories.CImage.FileName);
 
                 // Save the image file to the specified path
@@ -134,15 +141,6 @@ namespace Asp_Core_Api_Project.Controllers
                     Categories.CImage.CopyTo(stream);
                 }
             }
-
-
-            // Check if the directory does not exist and create it if necessary
-            if (!Directory.Exists(imagesFolderCategory))
-            {
-                Directory.CreateDirectory(imagesFolderCategory);
-            }
-
-            
 
             // Add the category data to the database
             _db.Categories.Add(data);
@@ -157,34 +155,48 @@ namespace Asp_Core_Api_Project.Controllers
 
 
 
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> PutProduct([FromForm] CategoryReqeust product, int id)
-        //{
-        //    var imagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
-        //    if (!Directory.Exists(imagesFolder))
-        //    {
-        //        Directory.CreateDirectory(imagesFolder);
-        //    }
+        [HttpPut("{id}")]
+        public IActionResult PutCategory([FromForm] CategoryReqeust categoryRequest, int id)
+        {
+            // Set the folder path to save the images
+            var imagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
 
-        //    var imageFile = Path.Combine(imagesFolder, Category.C.FileName);
-        //    using (var stream = new FileStream(imageFile, FileMode.Create))
-        //    {
-        //        await Categories.CopyToAsync(stream);
-        //    }
+            // Check if the directory exists; if not, create it
+            if (!Directory.Exists(imagesFolder))
+            {
+                Directory.CreateDirectory(imagesFolder);
+            }
 
-        //    var p = _db.Products.FirstOrDefault(p => p.PId == id);
-        //    if (p == null)
-        //    {
-        //        return NotFound();
-        //    }
+            // Define the full path for the image file if CImage is not null
+            if (categoryRequest.CImage != null)
+            {
+                var imageFile = Path.Combine(imagesFolder, categoryRequest.CImage.FileName);
 
-        //    p.PName = product.PName;
-        //    p.PImage = product.PImage.FileName;
+                // Save the image file to the specified path
+                using (var stream = new FileStream(imageFile, FileMode.Create))
+                {
+                    categoryRequest.CImage.CopyTo(stream);
+                }
+            }
 
-        //    _db.Products.Update(p);
-        //    await _db.SaveChangesAsync();
-        //    return Ok();
-        //}
+            // Retrieve the existing category from the database
+            var category = _db.Categories.FirstOrDefault(c => c.CId == id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+
+            // Update the category properties
+            category.CName = categoryRequest.CName;
+            category.CImage = categoryRequest.CImage?.FileName;
+
+            // Update the category in the database
+            _db.Categories.Update(category);
+            _db.SaveChanges();
+
+            return Ok();
+        }
+
 
 
 

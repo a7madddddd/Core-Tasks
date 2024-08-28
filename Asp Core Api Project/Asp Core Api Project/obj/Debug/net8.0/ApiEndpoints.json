@@ -14,8 +14,34 @@
       },
       {
         "Name": "CImage",
-        "Type": "Microsoft.AspNetCore.Http.FormFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp_Core_Api_Project.Controllers.CategoriesController",
+    "Method": "PutCategory",
+    "RelativePath": "api/Categories/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -132,7 +158,7 @@
   },
   {
     "ContainingType": "Asp_Core_Api_Project.Controllers.ProductsController",
-    "Method": "PostProduct",
+    "Method": "postProducts",
     "RelativePath": "api/Products",
     "HttpMethod": "POST",
     "IsController": true,
@@ -157,6 +183,11 @@
         "Name": "PImage",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
+      },
+      {
+        "Name": "CId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -169,42 +200,6 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Asp_Core_Api_Project.Controllers.ProductsController",
-    "Method": "putProduct",
-    "RelativePath": "api/Products/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "PName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "PDes",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "PPric",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "PImage",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
-      },
       {
         "Name": "id",
         "Type": "System.Int32",

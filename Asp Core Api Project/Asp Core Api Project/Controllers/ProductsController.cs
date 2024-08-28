@@ -20,8 +20,8 @@ namespace Asp_Core_Api_Project.Controllers
         [HttpGet]
         public ActionResult GetAllProduct()
         {
-
             var AllProducts = _db.Products.ToList();
+
             return Ok(AllProducts);
         }
 
@@ -89,63 +89,137 @@ namespace Asp_Core_Api_Project.Controllers
 
 
         [HttpPost]
-        public IActionResult PostProduct([FromForm] postProducts product)
+        public IActionResult postProducts([FromForm] postProducts product)
         {
+            // Ensure the folder path to save the images
+            var imagesFolderProducts = Path.Combine(Directory.GetCurrentDirectory(), "ProductsImages");
 
-            var data = new Product
+            // Create the directory if it doesn't exist
+            if (!Directory.Exists(imagesFolderProducts))
+            {
+                Directory.CreateDirectory(imagesFolderProducts);
+            }
+
+            // Initialize image name variable
+            string imageName = null;
+
+            // Handle image file upload if it's not null
+            if (product.PImage != null)
+            {
+                // Generate the full path for the image file
+                var imageFilePath = Path.Combine(imagesFolderProducts, product.PImage.FileName);
+                imageName = product.PImage.FileName;
+
+                // Save the image file to the specified path
+                using (var stream = new FileStream(imageFilePath, FileMode.Create))
+                {
+                    product.PImage.CopyTo(stream); // Synchronous file copy
+                }
+            }
+
+            // Create a new Product instance with the uploaded image name
+            var dataa = new Product
             {
                 PName = product.PName,
-                PImage = product.PImage.FileName
-
+                PDes = product.PDes,
+                PPric = product.PPric,
+                PImage = imageName, // Save the image name in the database
+                CId = product.CId
             };
 
-            var imagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
-            if (Directory.Exists(imagesFolder)) {
+            // Add the product data to the database
+            _db.Products.Add(dataa);
+            _db.SaveChanges(); // Synchronous save changes operation
 
-                Directory.CreateDirectory(imagesFolder);
-            }
-
-            var imagsFile = Path.Combine(imagesFolder, product.PImage.FileName);
-            using (var Stream = new FileStream(imagesFolder, FileMode.Create)) {
-
-                product.PImage.CopyToAsync(Stream);
-
-            }
-
-            _db.Products.Add(data);
-            _db.SaveChanges();
-            return Ok();
-
-        }
-
-        [HttpPut("{id}")]
-        public async Task<IActionResult> putProduct([FromForm] postProducts product, int id)
-        {
-            var imagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
-            if (!Directory.Exists(imagesFolder))
-            {
-                Directory.CreateDirectory(imagesFolder);
-            }
-
-            var imagsFile = Path.Combine(imagesFolder, product.PImage.FileName);
-            using (var Stream = new FileStream(imagsFile, FileMode.Create))
-            {
-                await product.PImage.CopyToAsync(Stream);
-            }
-
-            var p = _db.Products.FirstOrDefault(p => p.PId == id);
-            if (p == null)
-            {
-                return NotFound();
-            }
-
-            p.PName = product.PName;
-            p.PImage = product.PImage.FileName;
-
-            _db.Products.Update(p);
-            await _db.SaveChangesAsync();
             return Ok();
         }
+ 
+        //public IActionResult PostProduct([FromForm] postProducts product)
+        //{
+        //    // Ensure the folder path to save the images
+        //    var imagesFolderproducts = Path.Combine(Directory.GetCurrentDirectory(), "productsImages");
+
+        //    // Create the directory if it doesn't exist
+        //    if (!Directory.Exists(imagesFolderproducts))
+        //    {
+        //        Directory.CreateDirectory(imagesFolderproducts);
+        //    }
+
+        //    // Handle image file upload if it's not null
+        //    string imageName = null;
+        //    if (product.PImage != null)
+        //    {
+        //        imageName = product.PImage.FileName; // Get the file name
+        //        var imageFilePath = Path.Combine(imagesFolderproducts, imageName);
+
+        //        // Save the image file to the specified path
+        //        using (var stream = new FileStream(imageFilePath, FileMode.Create))
+        //        {
+        //            product.PImage.CopyTo(stream); // Save the file
+        //        }
+        //    }
+
+        //    // Create a new Product instance with the uploaded image name
+        //    var data = new Product
+        //    {
+        //        PName = product.PName,
+        //        PImage = imageName, // Save the image name in the database
+        //        PPric = product.PPric,
+        //        PDes = product.PDes,
+        //        CId = product.CId // Include the category ID if it's part of the model
+        //    };
+
+        //    // Add the product data to the database
+        //    _db.Products.Add(data);
+        //    _db.SaveChanges();
+
+        //    return Ok();
+        //}
+
+        //[HttpPut("{id}")]
+        //public IActionResult PutProduct(int id, [FromForm] postProducts product)
+        //{
+        //    var existingProduct = _db.Products.FirstOrDefault(p => p.PId == id);
+
+        //    if (existingProduct == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    string imageName = existingProduct.PImage; // Keep existing image name if no new image is provided
+
+        //    if (product.PImage != null)
+        //    {
+        //        var imagesFolderproducts = Path.Combine(Directory.GetCurrentDirectory(), "productsImages");
+        //        if (!Directory.Exists(imagesFolderproducts))
+        //        {
+        //            Directory.CreateDirectory(imagesFolderproducts);
+        //        }
+
+        //        imageName = product.PImage.FileName; // Get the new image name
+        //        var imageFilePath = Path.Combine(imagesFolderproducts, imageName);
+
+        //        // Save the new image file
+        //        using (var stream = new FileStream(imageFilePath, FileMode.Create))
+        //        {
+        //            product.PImage.CopyTo(stream);
+        //        }
+        //    }
+
+        //    // Update the product details
+        //    existingProduct.PName = product.PName;
+        //    existingProduct.PImage = imageName; // Update image name
+        //    existingProduct.PPric = product.PPric;
+        //    existingProduct.PDes = product.PDes;
+        //    existingProduct.CId = product.CId;
+
+        //    _db.Products.Update(existingProduct);
+        //    _db.SaveChanges();
+
+        //    return Ok();
+        //}
+
+
 
     }
 }

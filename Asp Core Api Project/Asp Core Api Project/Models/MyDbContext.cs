@@ -125,6 +125,8 @@ public partial class MyDbContext : DbContext
             entity.HasOne(d => d.CIdNavigation).WithMany(p => p.Products)
                 .HasForeignKey(d => d.CId)
                 .HasConstraintName("FK__products__c_id__398D8EEE");
+            modelBuilder.Entity<Product>()
+        .Ignore(p => p.PImage);
         });
 
         modelBuilder.Entity<User>(entity =>
@@ -153,3 +155,4 @@ public partial class MyDbContext : DbContext
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }
+

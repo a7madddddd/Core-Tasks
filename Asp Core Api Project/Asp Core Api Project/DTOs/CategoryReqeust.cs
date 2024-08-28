@@ -2,11 +2,9 @@
 {
     public class CategoryReqeust
     {
-
-
         public string? CName { get; set; }
 
-        public FormFile? CImage { get; set; }
-
+        public IFormFile? CImage { get; set; }
     }
+
 }
