@@ -142,8 +142,7 @@
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\AddItemsRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T19:20:09.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T19:20:09.383Z"
             },
             {
               "$type": "Document",
@@ -155,8 +154,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\Cart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T17:44:27.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T17:44:27.498Z"
             },
             {
               "$type": "Document",
@@ -166,7 +164,7 @@
               "RelativeDocumentMoniker": "Asp Core Api Project\\Controllers\\CartItems.cs",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Controllers\\CartItems.cs",
               "RelativeToolTip": "Asp Core Api Project\\Controllers\\CartItems.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAmwDYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwDYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T17:27:09.093Z",
               "EditorCaption": ""
@@ -181,8 +179,7 @@
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\CartItemRsposnceDTO.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAzwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T17:18:57.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T17:18:57.461Z"
             },
             {
               "$type": "Document",
@@ -194,8 +191,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\CartItem.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAcwBIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T17:17:14.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T17:17:14.688Z"
             },
             {
               "$type": "Document",
@@ -265,8 +261,7 @@
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\CategoryReqeust.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:07:23.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T15:07:23.317Z"
             },
             {
               "$type": "Document",
@@ -314,8 +309,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\Product.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA6wBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T07:50:19.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T07:50:19.36Z"
             },
             {
               "$type": "Document",
@@ -388,8 +382,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAAswAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T14:35:58.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T14:35:58.247Z"
             },
             {
               "$type": "Document",
@@ -425,8 +418,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\MyDbContext.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAcwEMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T14:32:57.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T14:32:57.644Z"
             }
           ]
         }
