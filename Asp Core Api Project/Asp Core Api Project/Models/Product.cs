@@ -18,4 +18,6 @@ public partial class Product
     public int? CId { get; set; }
 
     public virtual Category? CIdNavigation { get; set; }
+
+    public virtual ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
 }

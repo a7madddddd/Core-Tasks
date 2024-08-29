@@ -20,7 +20,6 @@ namespace Asp_Core_Api_Project.Controllers
 
 
         [HttpGet]
-
         public IActionResult getAllUsers()
         {
 
@@ -30,7 +29,6 @@ namespace Asp_Core_Api_Project.Controllers
 
         [HttpGet]
         [Route("Api/User/{id}")]
-
         public IActionResult UserByID(int id)
         {
 

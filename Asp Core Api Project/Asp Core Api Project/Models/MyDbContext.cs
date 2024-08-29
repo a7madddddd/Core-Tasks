@@ -15,6 +15,10 @@ public partial class MyDbContext : DbContext
     {
     }
 
+    public virtual DbSet<Cart> Carts { get; set; }
+
+    public virtual DbSet<CartItem> CartItems { get; set; }
+
     public virtual DbSet<Category> Categories { get; set; }
 
     public virtual DbSet<Info> Infos { get; set; }
@@ -33,6 +37,39 @@ public partial class MyDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Cart>(entity =>
+        {
+            entity.HasKey(e => e.CartId).HasName("PK__Carts__51BCD797AA24113F");
+
+            entity.HasIndex(e => e.UsId, "UQ__Carts__2E701A66BF6CDCBF").IsUnique();
+
+            entity.Property(e => e.CartId).HasColumnName("CartID");
+            entity.Property(e => e.UsId).HasColumnName("us_id");
+
+            entity.HasOne(d => d.Us).WithOne(p => p.Cart)
+                .HasForeignKey<Cart>(d => d.UsId)
+                .HasConstraintName("FK_UserCart");
+        });
+
+        modelBuilder.Entity<CartItem>(entity =>
+        {
+            entity.HasKey(e => e.CartItemId).HasName("PK__CartItem__488B0B2A8C82C510");
+
+            entity.HasIndex(e => new { e.CartId, e.PId }, "UQ__CartItem__5992D12F98059084").IsUnique();
+
+            entity.Property(e => e.CartItemId).HasColumnName("CartItemID");
+            entity.Property(e => e.CartId).HasColumnName("CartID");
+            entity.Property(e => e.PId).HasColumnName("p_id");
+
+            entity.HasOne(d => d.Cart).WithMany(p => p.CartItems)
+                .HasForeignKey(d => d.CartId)
+                .HasConstraintName("FK_Cart");
+
+            entity.HasOne(d => d.Product).WithMany(p => p.CartItems)
+                .HasForeignKey(d => d.PId)
+                .HasConstraintName("FK_Product");
+        });
+
         modelBuilder.Entity<Category>(entity =>
         {
             entity.HasKey(e => e.CId).HasName("PK__category__213EE7743ECFEE85");

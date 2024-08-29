@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "Asp_Core_Api_Project.Controllers.CartItems",
+    "Method": "Get",
+    "RelativePath": "api/CartItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp_Core_Api_Project.Controllers.CartItems",
+    "Method": "AddItems",
+    "RelativePath": "api/CartItems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "APDTO",
+        "Type": "Asp_Core_Api_Project.DTOs.AddItemsRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Asp_Core_Api_Project.Controllers.CategoriesController",
     "Method": "CategoryReqestDots",
     "RelativePath": "api/Categories",
