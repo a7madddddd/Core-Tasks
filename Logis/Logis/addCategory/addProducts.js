@@ -61,6 +61,7 @@ async function getallProducts() {
       <td><img src="../categories/images/${Product.pImage}.jpg" alt="${Product.pName}"></td>
       <td>
         <a href="../addCategory/editProduct.html"><button onclick="storeProductId(${Product.pId})" class="btn btn-primary">Edit</button></a>
+        <a href="../addCategory/ProductDetails.html"><button onclick="storeProductId(${Product.pId})" class="btn btn-primary">Details</button></a>
       </td>
     </tr>
     `;
@@ -115,3 +116,9 @@ async function Editproduct(event) { // Fix: pass the event object as an argument
   editform.reset();
   alert("Success");
 }
+
+
+
+///////////////////////// product Details ////////////////////////////////
+
+

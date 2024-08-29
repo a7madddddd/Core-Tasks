@@ -1,6 +1,6 @@
 async function getallcategory() {
-  let url = "https://localhost:44389/api/Categories/Api/categories";
-    let request = await fetch(url);
+  let urlcat = "https://localhost:44389/api/Categories/Api/categories";
+  let request = await fetch(urlcat);
 
     let data = await request.json();
 
