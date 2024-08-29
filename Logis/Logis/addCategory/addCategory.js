@@ -78,7 +78,7 @@ getallcategory();
 
 const url = "https://localhost:44389/api/Categories";
 
-var form = document.getElementById("form");
+var form = document.getElementById("formProducts");
 
 async function addCategory() {
     event.preventDefault();

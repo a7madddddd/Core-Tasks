@@ -77,7 +77,7 @@ getallProducts();
 
 const url = "https://localhost:44389/api/Products";
 
-var form = document.getElementById("addProductForm");
+var form = document.getElementById("producteditform");
 form.addEventListener("submit", addProduct)
 
 async function addProduct(event) {

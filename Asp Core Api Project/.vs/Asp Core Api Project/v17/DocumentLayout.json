@@ -106,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -127,10 +127,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             },
             {
               "$type": "Document",
@@ -369,8 +365,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAAHwAAAAAAAAAAAAAwIMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T14:38:06.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T14:38:06.277Z"
             },
             {
               "$type": "Document",
@@ -419,6 +414,10 @@
               "ViewState": "AgIAAEMAAAAAAAAAAAAcwEMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T14:32:57.644Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             }
           ]
         }
