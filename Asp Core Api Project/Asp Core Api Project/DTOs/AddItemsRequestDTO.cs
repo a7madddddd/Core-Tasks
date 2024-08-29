@@ -2,7 +2,9 @@
 {
     public class AddItemsRequestDTO
     {
-        public int PId { get; set; }
+        public int CartItemId { get; set; }
+
+        public int? PId { get; set; }
         public int? CartId { get; set; }
         public int Quantity { get; set; }
     }

@@ -11,11 +11,12 @@ namespace Asp_Core_Api_Project.Controllers
     [ApiController]
     public class CartItems : ControllerBase
     {
-       
+
         private readonly MyDbContext _db;
 
-        public CartItems(MyDbContext db) {
-        
+        public CartItems(MyDbContext db)
+        {
+
             _db = db;
 
         }
@@ -26,6 +27,7 @@ namespace Asp_Core_Api_Project.Controllers
             var data = _db.CartItems.Select(
                 x => new CartItemRsposnceDTO
                 {
+                    CartItemId = x.CartItemId,
                     CartId = x.CartId,
                     Quantity = x.Quantity,
                     PDTO = new productDTO
@@ -42,10 +44,11 @@ namespace Asp_Core_Api_Project.Controllers
             return Ok(data);
         }
         [HttpPost]
-        public IActionResult AddItems([FromBody] AddItemsRequestDTO APDTO) {
-
+        public IActionResult AddItems([FromBody] AddItemsRequestDTO APDTO)
+        {
             var data = new CartItem
             {
+                CartItemId = APDTO.CartItemId,
                 CartId = APDTO.CartId,
                 Quantity = APDTO.Quantity,
                 PId = APDTO.PId,
@@ -55,6 +58,38 @@ namespace Asp_Core_Api_Project.Controllers
             _db.SaveChanges();
             return Ok(data);
         }
+
+
+        [HttpPut("{id}")]
+        public IActionResult PutCategory([FromBody] EditCartItemRequest EditRequist, int id)
+        {
+            
+            var EditCartItem = _db.CartItems.FirstOrDefault(c => c.CartItemId == id);
+               EditCartItem.Quantity = EditRequist.Quantity;
+
+            _db.CartItems.Update(EditCartItem);
+            _db.SaveChanges();
+
+            return Ok();
+        }
+
+
+        [HttpDelete("Api/{id}")]
+        public IActionResult DeleteCartItem(int id)
+        {
+            var deleteCartItem = _db.CartItems.FirstOrDefault(c => c.CartItemId == id);
+
+            if (deleteCartItem == null)
+            {
+                return NotFound(); // Return 404 if item not found
+            }
+
+            _db.Remove(deleteCartItem);
+            _db.SaveChanges();
+
+            return NoContent(); // Return 204 No Content on successful deletion
+        }
+
 
     }
 }

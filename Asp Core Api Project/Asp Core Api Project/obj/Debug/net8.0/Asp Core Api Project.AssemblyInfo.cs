@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Asp Core Api Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7005c513bfd883ba322fb11d514574fbd21b247a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bc017ad2d2ad0e4662f6de66b68fa09f86a3c53")]
 [assembly: System.Reflection.AssemblyProductAttribute("Asp Core Api Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Asp Core Api Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

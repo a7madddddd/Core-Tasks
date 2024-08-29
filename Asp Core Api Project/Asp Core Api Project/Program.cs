@@ -1,6 +1,7 @@
 using Asp_Core_Api_Project.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,12 @@ options.AddPolicy("Development", builder =>
 
 
 );
+Log.Logger = new LoggerConfiguration() /// new
+    .WriteTo.Console()
+    .WriteTo.File("app.log", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
+builder.Host.UseSerilog();
 
 builder.Services.AddDbContext<MyDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DESKTOP-QJHUPSA")));
@@ -28,8 +35,10 @@ builder.Services.AddDbContext<MyDbContext>(options =>
 
 
 
-
 var app = builder.Build();
+
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

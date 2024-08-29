@@ -26,6 +26,43 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Asp_Core_Api_Project.Controllers.CartItems",
+    "Method": "PutCategory",
+    "RelativePath": "api/CartItems/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EditRequist",
+        "Type": "Asp_Core_Api_Project.DTOs.EditCartItemRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp_Core_Api_Project.Controllers.CartItems",
+    "Method": "DeleteCartItem",
+    "RelativePath": "api/CartItems/Api/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Asp_Core_Api_Project.Controllers.CategoriesController",
     "Method": "CategoryReqestDots",
     "RelativePath": "api/Categories",

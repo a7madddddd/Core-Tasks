@@ -11,8 +11,9 @@ async function getCartItems() {
         <tr>
             <td>${element.cartId}</td>
             <td>${element.pdto.pName}</td>
-            <td><input type="number" name="quantity" id="quantity" value="${element.quantity}" ></input></td>
+            <td><input type="number" name="quantity" id="quantity" value="${element.quantity}" name="quantity"></input></td>
             <td><a class="btn btn-primary"  onclick="store(${element.cartItemId})">Edit</a></td>
+            <td><button type="button" class="btn btn-success mt-4 w-100" onclick="DeleteQuantity(${element.cartItemId})">Delete</button></td>
         </tr>
         `
     })
@@ -106,12 +107,57 @@ async function addToCart() {
 }
 
 
+////////////////////////Delete quantity ///////////////////////////
+async function DeleteQuantity(id) {
+    debugger
+    const url = `https://localhost:44389/api/CartItems/Api/${id}`;
+
+    try {
+        let response = await fetch(url, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+
+        if (response.ok) {
+            alert("Item Deleted Successfully");
+        } else {
+            alert("Failed to delete item. Please try again.");
+        }
+    } catch (error) {
+        console.error("Error deleting item:", error);
+        alert("An error occurred. Please try again later.");
+    }
+}
 
 
+//////////////////////////edit quantity ///////////////////////////
+async function store(id) {
+    debugger;
+    const p = localStorage.getItem("cartItemId");
+
+    const url2 = `https://localhost:44389/api/CartItems/${p}`;
+
+    let quantity = document.getElementById("quantity").value;
+
+    const request = {
+        quantity: quantity
+    };
 
 
+        let response = await fetch(url2, {
+            method: 'PUT',
+            body: JSON.stringify(request),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
 
+        if (response.ok) {
+            
+            alert('Cart item updated successfully');
+        } 
 
-
-
+}
 

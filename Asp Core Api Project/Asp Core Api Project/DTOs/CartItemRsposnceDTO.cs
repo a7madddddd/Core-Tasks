@@ -4,6 +4,7 @@ namespace Asp_Core_Api_Project.DTOs
 {
     public class CartItemRsposnceDTO
     {
+        public int CartItemId { get; set; }
 
         public int? CartId { get; set; }
 
@@ -15,7 +16,7 @@ namespace Asp_Core_Api_Project.DTOs
 
     public class productDTO {
     
-        public int PId { get; set; }
+        public int ?PId { get; set; }
 
         public string? PName { get; set; }
 

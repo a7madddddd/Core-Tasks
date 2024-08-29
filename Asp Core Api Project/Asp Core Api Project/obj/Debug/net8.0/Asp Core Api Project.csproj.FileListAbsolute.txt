@@ -271,3 +271,12 @@ C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project\obj
 C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project\obj\Debug\net8.0\Asp Core Api Project.pdb
 C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project\obj\Debug\net8.0\Asp Core Api Project.genruntimeconfig.cache
 C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project\obj\Debug\net8.0\ref\Asp Core Api Project.dll
+C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project\bin\Debug\net8.0\Serilog.dll
+C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project\bin\Debug\net8.0\Serilog.Sinks.File.dll

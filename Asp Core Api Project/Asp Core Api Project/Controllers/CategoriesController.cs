@@ -158,35 +158,29 @@ namespace Asp_Core_Api_Project.Controllers
         [HttpPut("{id}")]
         public IActionResult PutCategory([FromForm] CategoryReqeust categoryRequest, int id)
         {
-            // Set the folder path to save the images
             var imagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "Uploadss");
 
-            // Check if the directory exists; if not, create it
             if (!Directory.Exists(imagesFolder))
             {
                 Directory.CreateDirectory(imagesFolder);
             }
 
-            // Define the full path for the image file if CImage is not null
             if (categoryRequest.CImage != null)
             {
                 var imageFile = Path.Combine(imagesFolder, categoryRequest.CImage.FileName);
 
-                // Save the image file to the specified path
                 using (var stream = new FileStream(imageFile, FileMode.Create))
                 {
                     categoryRequest.CImage.CopyTo(stream);
                 }
             }
 
-            // Retrieve the existing category from the database
             var category = _db.Categories.FirstOrDefault(c => c.CId == id);
             if (category == null)
             {
                 return NotFound();
             }
 
-            // Update the category properties
             category.CName = categoryRequest.CName;
             category.CImage = categoryRequest.CImage?.FileName;
 

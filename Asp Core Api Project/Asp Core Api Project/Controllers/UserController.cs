@@ -11,13 +11,13 @@ namespace Asp_Core_Api_Project.Controllers
     public class UserController : ControllerBase
     {
         private readonly MyDbContext _db;
+        private readonly ILogger<UserController> _logger;
 
-        public UserController(MyDbContext db)
+        public UserController(MyDbContext db, ILogger<UserController> logger)
         {
             _db = db;
-
+            _logger = logger;
         }
-
 
         [HttpGet]
         public IActionResult getAllUsers()
