@@ -1,0 +1,38 @@
+2024-08-30 10:50:25.073 +03:00 [INF] Now listening on: http://localhost:5024
+2024-08-30 10:50:25.106 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-30 10:50:25.106 +03:00 [INF] Hosting environment: Development
+2024-08-30 10:50:25.106 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project
+2024-08-30 10:50:25.210 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/swagger - null null
+2024-08-30 10:50:25.270 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/swagger - 301 0 null 60.7068ms
+2024-08-30 10:50:25.274 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/swagger/index.html - null null
+2024-08-30 10:50:25.315 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/swagger/index.html - 200 null text/html;charset=utf-8 40.7502ms
+2024-08-30 10:50:25.324 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/swagger/swagger-ui-bundle.js - null null
+2024-08-30 10:50:25.325 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/swagger/swagger-ui-standalone-preset.js - null null
+2024-08-30 10:50:25.325 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/swagger/swagger-ui.css - null null
+2024-08-30 10:50:25.363 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-08-30 10:50:25.363 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-30 10:50:25.366 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 40.7249ms
+2024-08-30 10:50:25.366 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/swagger/swagger-ui.css - 200 143943 text/css 40.7151ms
+2024-08-30 10:50:25.370 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-30 10:50:25.371 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 46.3161ms
+2024-08-30 10:50:25.601 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/swagger/v1/swagger.json - null null
+2024-08-30 10:50:25.620 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/swagger/favicon-32x32.png - null null
+2024-08-30 10:50:25.620 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-08-30 10:50:25.621 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/swagger/favicon-32x32.png - 200 628 image/png 1.0786ms
+2024-08-30 10:50:25.712 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 110.8604ms
+2024-08-30 10:52:59.178 +03:00 [INF] Now listening on: http://localhost:5024
+2024-08-30 10:52:59.210 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-30 10:52:59.211 +03:00 [INF] Hosting environment: Development
+2024-08-30 10:52:59.211 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project
+2024-08-30 10:52:59.321 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/swagger/index.html - null null
+2024-08-30 10:52:59.428 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/swagger/index.html - 200 null text/html;charset=utf-8 108.1234ms
+2024-08-30 10:52:59.614 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/swagger/v1/swagger.json - null null
+2024-08-30 10:52:59.709 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 94.8273ms
+2024-08-30 10:53:46.305 +03:00 [INF] Now listening on: http://localhost:5024
+2024-08-30 10:53:46.332 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-30 10:53:46.332 +03:00 [INF] Hosting environment: Development
+2024-08-30 10:53:46.332 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project
+2024-08-30 10:53:46.429 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/swagger/index.html - null null
+2024-08-30 10:53:46.503 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/swagger/index.html - 200 null text/html;charset=utf-8 74.364ms
+2024-08-30 10:53:46.596 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/swagger/v1/swagger.json - null null
+2024-08-30 10:53:46.682 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.0446ms

@@ -63,7 +63,7 @@ namespace Asp_Core_Api_Project.Controllers
             if (name != null)
             {
 
-                var productByName = _db.Products.Where(p => p.PName == name);
+                var productByName = _db.Products.Where(p => p.PName == name).ToList();
 
                 return Ok(name);
             }
@@ -104,7 +104,7 @@ namespace Asp_Core_Api_Project.Controllers
 
                 using (var stream = new FileStream(imageFilePath, FileMode.Create))
                 {
-                    product.PImage.CopyToAsync(stream).Wait(); // Ensure the file copy operation completes before proceeding
+                    product.PImage.CopyToAsync(stream).Wait(); 
                 }
             }
 
@@ -137,7 +137,7 @@ namespace Asp_Core_Api_Project.Controllers
                 return NotFound();
             }
 
-            string imageName = existingProduct.PImage; // Keep existing image name if no new image is provided
+            string imageName = existingProduct.PImage; 
 
             if (product.PImage != null)
             {
@@ -147,19 +147,17 @@ namespace Asp_Core_Api_Project.Controllers
                     Directory.CreateDirectory(imagesFolderproducts);
                 }
 
-                imageName = product.PImage.FileName; // Get the new image name
+                imageName = product.PImage.FileName; 
                 var imageFilePath = Path.Combine(imagesFolderproducts, imageName);
 
-                // Save the new image file
                 using (var stream = new FileStream(imageFilePath, FileMode.Create))
                 {
                     product.PImage.CopyTo(stream);
                 }
             }
 
-            // Update the product details
             existingProduct.PName = product.PName;
-            existingProduct.PImage = imageName; // Update image name
+            existingProduct.PImage = imageName; 
             existingProduct.PPric = product.PPric;
             existingProduct.PDes = product.PDes;
             existingProduct.CId = product.CId;

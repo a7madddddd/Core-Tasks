@@ -11,13 +11,12 @@ async function getCartItems() {
         <tr>
             <td>${element.cartId}</td>
             <td>${element.pdto.pName}</td>
-            <td><input type="number" name="quantity" id="quantity" value="${element.quantity}" name="quantity"></input></td>
-            <td><a class="btn btn-primary"  onclick="store(${element.cartItemId})">Edit</a></td>
+            <td><input type="number" name="quantity" id="quantity${element.cartItemId}" value="${element.quantity}" name="quantity"></input></td>
+            <td><a class="btn btn-primary"  onclick="get(${element.cartItemId})">Edit</a></td>
             <td><button type="button" class="btn btn-success mt-4 w-100" onclick="DeleteQuantity(${element.cartItemId})">Delete</button></td>
         </tr>
         `
     })
-
 }
 function store(id) {
     localStorage.setItem("cartItemId", id);
@@ -84,11 +83,11 @@ getCategory();
 
 
 async function addToCart() {
-    let quantity = document.getElementById("quantity").value;
+    let quantity = document.getElementById("quantity");
     const url1 = "https://localhost:44389/api/CartItems"
     var request = {
         productId: n,
-        quantity: quantity,
+        quantity: quantity.value,
         cartId: 1
     }
     let response = await fetch(url1,
@@ -133,13 +132,13 @@ async function DeleteQuantity(id) {
 
 
 //////////////////////////edit quantity ///////////////////////////
-async function store(id) {
+async function get(id) {
     debugger;
-    const p = localStorage.getItem("cartItemId");
+    // const p = localStorage.getItem("cartItemId");
 
-    const url2 = `https://localhost:44389/api/CartItems/${p}`;
+    const url2 = `https://localhost:44389/api/CartItems/${id}`;
 
-    let quantity = document.getElementById("quantity").value;
+    let quantity = document.getElementById(`quantity${id}`).value;
 
     const request = {
         quantity: quantity
@@ -158,6 +157,8 @@ async function store(id) {
             
             alert('Cart item updated successfully');
         } 
-
 }
+
+
+
 

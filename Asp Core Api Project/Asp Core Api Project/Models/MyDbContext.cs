@@ -31,6 +31,8 @@ public partial class MyDbContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
+    public virtual DbSet<UserRole> UserRoles { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Server=DESKTOP-QJHUPSA;Database=task;Trusted_Connection=True;TrustServerCertificate=True;");
@@ -65,7 +67,7 @@ public partial class MyDbContext : DbContext
                 .HasForeignKey(d => d.CartId)
                 .HasConstraintName("FK_Cart");
 
-            entity.HasOne(d => d.Product).WithMany(p => p.CartItems)
+            entity.HasOne(d => d.PIdNavigation).WithMany(p => p.CartItems)
                 .HasForeignKey(d => d.PId)
                 .HasConstraintName("FK_Product");
         });
@@ -183,6 +185,19 @@ public partial class MyDbContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("us_pas");
+        });
+
+        modelBuilder.Entity<UserRole>(entity =>
+        {
+            entity.HasKey(e => new { e.UserId, e.Role });
+
+            entity.Property(e => e.UserId).HasColumnName("UserID");
+            entity.Property(e => e.Role).HasMaxLength(50);
+            entity.Property(e => e.UsId).HasColumnName("us_id");
+
+            entity.HasOne(d => d.Us).WithMany(p => p.UserRoles)
+                .HasForeignKey(d => d.UsId)
+                .HasConstraintName("FK_UserRole_User");
         });
 
         OnModelCreatingPartial(modelBuilder);

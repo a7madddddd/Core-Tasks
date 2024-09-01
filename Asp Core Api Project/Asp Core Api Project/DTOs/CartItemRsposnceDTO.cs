@@ -18,7 +18,7 @@ namespace Asp_Core_Api_Project.DTOs
     
         public int ?PId { get; set; }
 
-        public string? PName { get; set; }
+        public string PName { get; set; }
 
         public string? PDes { get; set; }
 

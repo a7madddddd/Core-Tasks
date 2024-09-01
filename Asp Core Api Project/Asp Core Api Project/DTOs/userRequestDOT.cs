@@ -7,6 +7,8 @@
 
         public string? UsPas { get; set; }
 
+        public string? UsEm { get; set; }
 
     }
 }
+   

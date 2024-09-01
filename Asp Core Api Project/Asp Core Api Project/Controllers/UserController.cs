@@ -1,7 +1,9 @@
 ﻿using Asp_Core_Api_Project.DTOs;
 using Asp_Core_Api_Project.Models;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 
 namespace Asp_Core_Api_Project.Controllers
@@ -74,13 +76,21 @@ namespace Asp_Core_Api_Project.Controllers
 
 
 
-        [HttpPost]
+        [HttpPost("Register")]
         public IActionResult UserRequest([FromForm] userRequestDOT Users)
         {
+            byte[] hash, salt;
+            passwrdHash.CreatePasswordHash(Users.UsPas, out hash, out salt);
+            
+            
             var data = new User
             {
+                 
                 UsName = Users.UsName,
                 UsPas = Users.UsPas,
+                UsEm = Users.UsEm,
+                PasswordSalt= salt,
+                PasswordHash = hash
             };
 
             var imagesFolderUSer = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
@@ -94,6 +104,17 @@ namespace Asp_Core_Api_Project.Controllers
             _db.SaveChanges();
             return Ok();
 
+        }
+
+        [HttpPost("Login")]
+        public IActionResult Login([FromForm] userRequestDOT user)
+        {
+            var potato = _db.Users.FirstOrDefault(u => u.UsEm == user.UsEm);
+            if (potato == null || !passwrdHash.VerifyPasswordHash(user.UsPas, potato.PasswordHash, potato.PasswordSalt))
+            {
+                return Unauthorized("bad!!!");
+            }
+            return Ok("good!!");
         }
 
         [HttpPut("{id}")]

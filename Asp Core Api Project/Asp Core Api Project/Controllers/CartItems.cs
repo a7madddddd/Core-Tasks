@@ -24,25 +24,27 @@ namespace Asp_Core_Api_Project.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var data = _db.CartItems.Select(
-                x => new CartItemRsposnceDTO
+            var data = _db.CartItems.Include(c => c.PIdNavigation).Select(
+                x => new
                 {
+                    PId = x.PId,
                     CartItemId = x.CartItemId,
                     CartId = x.CartId,
                     Quantity = x.Quantity,
                     PDTO = new productDTO
                     {
-                        PId = x.Product.PId,
-                        PName = x.Product.PName,
-                        PDes = x.Product.PDes,
-                        PPric = x.Product.PPric,
-                        PImage = x.Product.PImage
+                        PId = x.PId,
+                        PName = x.PIdNavigation.PName,
+                        PDes = x.PIdNavigation.PDes,
+                        PPric = x.PIdNavigation.PPric,
+                        PImage = x.PIdNavigation.PImage
                     }
                 }
             ).ToList();
 
             return Ok(data);
         }
+
         [HttpPost]
         public IActionResult AddItems([FromBody] AddItemsRequestDTO APDTO)
         {
@@ -58,8 +60,6 @@ namespace Asp_Core_Api_Project.Controllers
             _db.SaveChanges();
             return Ok(data);
         }
-
-
         [HttpPut("{id}")]
         public IActionResult PutCategory([FromBody] EditCartItemRequest EditRequist, int id)
         {

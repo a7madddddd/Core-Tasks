@@ -372,27 +372,6 @@
   },
   {
     "ContainingType": "Asp_Core_Api_Project.Controllers.UserController",
-    "Method": "UserRequest",
-    "RelativePath": "api/User",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "UsName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "UsPas",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Asp_Core_Api_Project.Controllers.UserController",
     "Method": "deleteUser",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "DELETE",
@@ -422,6 +401,11 @@
       },
       {
         "Name": "UsPas",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsEm",
         "Type": "System.String",
         "IsRequired": false
       },
@@ -461,6 +445,58 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp_Core_Api_Project.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsPas",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsEm",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp_Core_Api_Project.Controllers.UserController",
+    "Method": "UserRequest",
+    "RelativePath": "api/User/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsPas",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsEm",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
