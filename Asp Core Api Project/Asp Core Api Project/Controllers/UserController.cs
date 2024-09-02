@@ -75,7 +75,6 @@ namespace Asp_Core_Api_Project.Controllers
         }
 
 
-
         [HttpPost("Register")]
         public IActionResult UserRequest([FromForm] userRequestDOT Users)
         {

@@ -7,12 +7,24 @@
       "RelativeMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|solutionrelative:asp core api project\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|c:\\users\\orange\\desktop\\core-tasks\\asp core api project\\asp core api project\\dtos\\passwrdhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|solutionrelative:asp core api project\\dtos\\passwrdhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|c:\\users\\orange\\desktop\\core-tasks\\asp core api project\\asp core api project\\dtos\\userrequestdot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|solutionrelative:asp core api project\\dtos\\userrequestdot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|c:\\users\\orange\\desktop\\core-tasks\\asp core api project\\asp core api project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|solutionrelative:asp core api project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|c:\\users\\orange\\desktop\\core-tasks\\asp core api project\\asp core api project\\dtos\\cartitemrsposncedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|solutionrelative:asp core api project\\dtos\\cartitemrsposncedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|c:\\users\\orange\\desktop\\core-tasks\\asp core api project\\asp core api project\\dtos\\postproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|solutionrelative:asp core api project\\dtos\\postproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|c:\\users\\orange\\desktop\\core-tasks\\asp core api project\\asp core api project\\dtos\\passwrdhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|solutionrelative:asp core api project\\dtos\\passwrdhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|c:\\users\\orange\\desktop\\core-tasks\\asp core api project\\asp core api project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|c:\\users\\orange\\desktop\\core-tasks\\asp core api project\\asp core api project\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|solutionrelative:asp core api project\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|c:\\users\\orange\\desktop\\core-tasks\\asp core api project\\asp core api project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|solutionrelative:asp core api project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|c:\\users\\orange\\desktop\\core-tasks\\asp core api project\\asp core api project\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|c:\\users\\orange\\desktop\\core-tasks\\asp core api project\\asp core api project\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|solutionrelative:asp core api project\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|c:\\users\\orange\\desktop\\core-tasks\\asp core api project\\asp core api project\\dtos\\cartitemrsposncedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|solutionrelative:asp core api project\\dtos\\cartitemrsposncedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|c:\\users\\orange\\desktop\\core-tasks\\asp core api project\\asp core api project\\dtos\\categoryreqeust.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|c:\\users\\orange\\desktop\\core-tasks\\asp core api project\\asp core api project\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|solutionrelative:asp core api project\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|c:\\users\\orange\\desktop\\core-tasks\\asp core api project\\asp core api project\\dtos\\postproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|solutionrelative:asp core api project\\dtos\\postproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F94628CD-33A3-4E76-B862-DE333C9286F6}|Asp Core Api Project\\Asp Core Api Project.csproj|c:\\users\\orange\\desktop\\core-tasks\\asp core api project\\asp core api project\\images\\screenshot 2024-08-24 001605.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
@@ -130,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 30,
+          "SelectedChildIndex": 29,
           "Children": [
             {
               "$type": "Bookmark",
@@ -153,12 +153,8 @@
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "passwrdHash.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\DTOs\\passwrdHash.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\DTOs\\passwrdHash.cs",
@@ -166,12 +162,11 @@
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\passwrdHash.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T14:28:25.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-01T14:28:25.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Models\\UserRole.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\Models\\UserRole.cs",
@@ -179,8 +174,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\UserRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T14:22:29.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-01T14:22:29.423Z"
             },
             {
               "$type": "Document",
@@ -192,12 +186,11 @@
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\EditCartItemRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:38:19.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T14:38:19.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Asp Core Api Project\\appsettings.Development.json",
@@ -205,12 +198,11 @@
               "RelativeToolTip": "Asp Core Api Project\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-29T08:58:38.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T08:58:38.379Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Asp Core Api Project.csproj",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Asp Core Api Project.csproj",
               "RelativeDocumentMoniker": "Asp Core Api Project\\Asp Core Api Project.csproj",
@@ -222,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "LogController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Controllers\\LogController.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\Controllers\\LogController.cs",
@@ -234,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AddItemsRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\DTOs\\AddItemsRequestDTO.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\DTOs\\AddItemsRequestDTO.cs",
@@ -242,12 +234,11 @@
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\AddItemsRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T19:20:09.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T19:20:09.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\Models\\Cart.cs",
@@ -255,12 +246,11 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\Cart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T17:44:27.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T17:44:27.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "CartItems.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Controllers\\CartItems.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\Controllers\\CartItems.cs",
@@ -268,25 +258,23 @@
               "RelativeToolTip": "Asp Core Api Project\\Controllers\\CartItems.cs",
               "ViewState": "AgIAACQAAAAAAAAAAADwvxoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T17:27:09.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T17:27:09.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "CartItemRsposnceDTO.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\DTOs\\CartItemRsposnceDTO.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\DTOs\\CartItemRsposnceDTO.cs",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\DTOs\\CartItemRsposnceDTO.cs",
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\CartItemRsposnceDTO.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T17:18:57.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T17:18:57.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\Models\\CartItem.cs",
@@ -294,8 +282,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\CartItem.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAA3wBEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T17:17:14.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T17:17:14.688Z"
             },
             {
               "$type": "Document",
@@ -357,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CategoryReqeust.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\DTOs\\CategoryReqeust.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\DTOs\\CategoryReqeust.cs",
@@ -365,12 +352,11 @@
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\CategoryReqeust.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:07:23.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T15:07:23.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "userRequestDOT.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\DTOs\\userRequestDOT.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\DTOs\\userRequestDOT.cs",
@@ -395,33 +381,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 4,
               "Title": "postProducts.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\DTOs\\postProducts.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\DTOs\\postProducts.cs",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\DTOs\\postProducts.cs",
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\postProducts.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T07:56:06.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T07:56:06.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Models\\Product.cs",
               "RelativeToolTip": "Asp Core Api Project\\Models\\Product.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA5wAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T07:50:19.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Models\\User.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\Models\\User.cs",
@@ -429,12 +414,11 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T07:44:53.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T07:44:53.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\Models\\Category.cs",
@@ -442,8 +426,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T06:36:59.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T06:36:59.784Z"
             },
             {
               "$type": "Document",
@@ -465,14 +448,14 @@
               "RelativeDocumentMoniker": "Asp Core Api Project\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Controllers\\UserController.cs",
               "RelativeToolTip": "Asp Core Api Project\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAewHIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowE4AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T14:39:06.835Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\Controllers\\ProductsController.cs",
@@ -480,12 +463,11 @@
               "RelativeToolTip": "Asp Core Api Project\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T14:38:06.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T14:38:06.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\Controllers\\CategoriesController.cs",
@@ -493,12 +475,11 @@
               "RelativeToolTip": "Asp Core Api Project\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAcwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T14:35:58.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T14:35:58.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\appsettings.json",
               "RelativeDocumentMoniker": "Asp Core Api Project\\appsettings.json",
@@ -510,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Program.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\Program.cs",
@@ -522,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "MyDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Models\\MyDbContext.cs",
               "RelativeDocumentMoniker": "Asp Core Api Project\\Models\\MyDbContext.cs",
@@ -530,8 +511,15 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\MyDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T14:32:57.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T14:32:57.644Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             }
           ]
         }
