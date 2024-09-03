@@ -4035,3 +4035,282 @@ FROM [category] AS [c]
 2024-09-03 18:29:06.484 +03:00 [INF] Executed action Asp_Core_Api_Project.Controllers.CategoriesController.AllCategories (Asp Core Api Project) in 2.3952ms
 2024-09-03 18:29:06.484 +03:00 [INF] Executed endpoint 'Asp_Core_Api_Project.Controllers.CategoriesController.AllCategories (Asp Core Api Project)'
 2024-09-03 18:29:06.484 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/api/Categories/Api/categories - 200 null application/json; charset=utf-8 3.1732ms
+2024-09-03 18:31:38.807 +03:00 [INF] User profile is available. Using 'C:\Users\Orange\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-03 18:31:38.944 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/swagger/index.html - null null
+2024-09-03 18:31:38.975 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-03 18:31:38.976 +03:00 [INF] Hosting environment: Development
+2024-09-03 18:31:38.976 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project
+2024-09-03 18:31:39.681 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/swagger/index.html - 200 null text/html;charset=utf-8 738.7506ms
+2024-09-03 18:31:39.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-03 18:31:39.699 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 5.0666ms
+2024-09-03 18:31:39.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/_vs/browserLink - null null
+2024-09-03 18:31:39.704 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/swagger/index.js - null null
+2024-09-03 18:31:39.712 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/swagger/index.js - 200 null application/javascript;charset=utf-8 7.9584ms
+2024-09-03 18:31:39.781 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/_vs/browserLink - 200 null text/javascript; charset=UTF-8 80.9977ms
+2024-09-03 18:31:39.829 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/swagger/v1/swagger.json - null null
+2024-09-03 18:31:40.037 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 207.8108ms
+2024-09-03 18:51:55.391 +03:00 [INF] User profile is available. Using 'C:\Users\Orange\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-03 18:51:55.529 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/swagger/index.html - null null
+2024-09-03 18:51:55.567 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-03 18:51:55.568 +03:00 [INF] Hosting environment: Development
+2024-09-03 18:51:55.568 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project
+2024-09-03 18:51:55.685 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/swagger/index.html - 200 null text/html;charset=utf-8 157.2799ms
+2024-09-03 18:51:55.690 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/swagger/index.js - null null
+2024-09-03 18:51:55.690 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-03 18:51:55.694 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 3.265ms
+2024-09-03 18:51:55.694 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/swagger/index.js - 200 null application/javascript;charset=utf-8 4.4555ms
+2024-09-03 18:51:55.698 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/_vs/browserLink - null null
+2024-09-03 18:51:55.733 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.2038ms
+2024-09-03 18:51:56.103 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/swagger/v1/swagger.json - null null
+2024-09-03 18:51:56.224 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 120.5402ms
+2024-09-03 18:52:01.971 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/swagger/index.html - null null
+2024-09-03 18:52:01.982 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/swagger/index.html - 200 null text/html;charset=utf-8 11.5791ms
+2024-09-03 18:52:02.002 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-03 18:52:02.003 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/swagger/index.js - null null
+2024-09-03 18:52:02.003 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/_vs/browserLink - null null
+2024-09-03 18:52:02.004 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 1.5922ms
+2024-09-03 18:52:02.005 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/swagger/index.js - 200 null application/javascript;charset=utf-8 2.3868ms
+2024-09-03 18:52:02.021 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.5546ms
+2024-09-03 18:52:02.088 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/swagger/v1/swagger.json - null null
+2024-09-03 18:52:02.099 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.4011ms
+2024-09-03 18:52:18.753 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44389/api/User/Login - multipart/form-data; boundary=----WebKitFormBoundaryIzQbuttPXEdjpJBQ 340
+2024-09-03 18:52:18.847 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:52:18.852 +03:00 [INF] Executing endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:52:18.884 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Asp_Core_Api_Project.DTOs.userRequestDOT) on controller Asp_Core_Api_Project.Controllers.UserController (Asp Core Api Project).
+2024-09-03 18:52:20.461 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44389/api/User/Login - multipart/form-data; boundary=----WebKitFormBoundaryUFUOezCiOR4zMtik 340
+2024-09-03 18:52:20.467 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:52:20.467 +03:00 [INF] Executing endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:52:20.468 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Asp_Core_Api_Project.DTOs.userRequestDOT) on controller Asp_Core_Api_Project.Controllers.UserController (Asp Core Api Project).
+2024-09-03 18:52:20.648 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44389/api/User/Login - multipart/form-data; boundary=----WebKitFormBoundaryBrAl5gcBLQGlvG7V 340
+2024-09-03 18:52:20.653 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:52:20.654 +03:00 [INF] Executing endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:52:20.655 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Asp_Core_Api_Project.DTOs.userRequestDOT) on controller Asp_Core_Api_Project.Controllers.UserController (Asp Core Api Project).
+2024-09-03 18:52:20.802 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44389/api/User/Login - multipart/form-data; boundary=----WebKitFormBoundaryGNbFFFdHI8P1wMUM 340
+2024-09-03 18:52:20.802 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:52:20.803 +03:00 [INF] Executing endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:52:20.803 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Asp_Core_Api_Project.DTOs.userRequestDOT) on controller Asp_Core_Api_Project.Controllers.UserController (Asp Core Api Project).
+2024-09-03 18:52:20.980 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44389/api/User/Login - multipart/form-data; boundary=----WebKitFormBoundaryC9zUAsnVmCcVyTCt 340
+2024-09-03 18:52:20.981 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:52:20.982 +03:00 [INF] Executing endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:52:20.982 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Asp_Core_Api_Project.DTOs.userRequestDOT) on controller Asp_Core_Api_Project.Controllers.UserController (Asp Core Api Project).
+2024-09-03 18:52:21.121 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44389/api/User/Login - multipart/form-data; boundary=----WebKitFormBoundaryMaNt4c1wOlE4dyly 340
+2024-09-03 18:52:21.122 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:52:21.122 +03:00 [INF] Executing endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:52:21.123 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Asp_Core_Api_Project.DTOs.userRequestDOT) on controller Asp_Core_Api_Project.Controllers.UserController (Asp Core Api Project).
+2024-09-03 18:52:21.302 +03:00 [INF] Executed DbCommand (60ms) [Parameters=[@__user_UsEm_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[us_id], [u].[PasswordHash], [u].[PasswordSalt], [u].[us_em], [u].[us_name], [u].[us_pas]
+FROM [users] AS [u]
+WHERE [u].[us_em] = @__user_UsEm_0
+2024-09-03 18:52:21.302 +03:00 [INF] Executed DbCommand (60ms) [Parameters=[@__user_UsEm_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[us_id], [u].[PasswordHash], [u].[PasswordSalt], [u].[us_em], [u].[us_name], [u].[us_pas]
+FROM [users] AS [u]
+WHERE [u].[us_em] = @__user_UsEm_0
+2024-09-03 18:52:21.303 +03:00 [INF] Executed DbCommand (60ms) [Parameters=[@__user_UsEm_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[us_id], [u].[PasswordHash], [u].[PasswordSalt], [u].[us_em], [u].[us_name], [u].[us_pas]
+FROM [users] AS [u]
+WHERE [u].[us_em] = @__user_UsEm_0
+2024-09-03 18:52:21.302 +03:00 [INF] Executed DbCommand (60ms) [Parameters=[@__user_UsEm_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[us_id], [u].[PasswordHash], [u].[PasswordSalt], [u].[us_em], [u].[us_name], [u].[us_pas]
+FROM [users] AS [u]
+WHERE [u].[us_em] = @__user_UsEm_0
+2024-09-03 18:52:21.303 +03:00 [INF] Executed DbCommand (60ms) [Parameters=[@__user_UsEm_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[us_id], [u].[PasswordHash], [u].[PasswordSalt], [u].[us_em], [u].[us_name], [u].[us_pas]
+FROM [users] AS [u]
+WHERE [u].[us_em] = @__user_UsEm_0
+2024-09-03 18:52:21.303 +03:00 [INF] Executed DbCommand (60ms) [Parameters=[@__user_UsEm_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[us_id], [u].[PasswordHash], [u].[PasswordSalt], [u].[us_em], [u].[us_name], [u].[us_pas]
+FROM [users] AS [u]
+WHERE [u].[us_em] = @__user_UsEm_0
+2024-09-03 18:52:21.304 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44389/api/User/Login - multipart/form-data; boundary=----WebKitFormBoundaryV0haYm8uR8joZWHD 340
+2024-09-03 18:52:21.305 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:52:21.305 +03:00 [INF] Executing endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:52:21.305 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Asp_Core_Api_Project.DTOs.userRequestDOT) on controller Asp_Core_Api_Project.Controllers.UserController (Asp Core Api Project).
+2024-09-03 18:52:21.316 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__user_UsEm_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[us_id], [u].[PasswordHash], [u].[PasswordSalt], [u].[us_em], [u].[us_name], [u].[us_pas]
+FROM [users] AS [u]
+WHERE [u].[us_em] = @__user_UsEm_0
+2024-09-03 18:52:21.454 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44389/api/User/Login - multipart/form-data; boundary=----WebKitFormBoundary1loLH7MKEvkwjyrf 340
+2024-09-03 18:52:21.455 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:52:21.455 +03:00 [INF] Executing endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:52:21.455 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Asp_Core_Api_Project.DTOs.userRequestDOT) on controller Asp_Core_Api_Project.Controllers.UserController (Asp Core Api Project).
+2024-09-03 18:52:21.471 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_UsEm_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[us_id], [u].[PasswordHash], [u].[PasswordSalt], [u].[us_em], [u].[us_name], [u].[us_pas]
+FROM [users] AS [u]
+WHERE [u].[us_em] = @__user_UsEm_0
+2024-09-03 18:52:21.500 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__potato_UsId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Role]
+FROM [UserRoles] AS [u]
+WHERE [u].[UserID] = @__potato_UsId_0
+2024-09-03 18:52:21.500 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__potato_UsId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Role]
+FROM [UserRoles] AS [u]
+WHERE [u].[UserID] = @__potato_UsId_0
+2024-09-03 18:52:21.501 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__potato_UsId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Role]
+FROM [UserRoles] AS [u]
+WHERE [u].[UserID] = @__potato_UsId_0
+2024-09-03 18:52:21.501 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__potato_UsId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Role]
+FROM [UserRoles] AS [u]
+WHERE [u].[UserID] = @__potato_UsId_0
+2024-09-03 18:52:21.502 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__potato_UsId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Role]
+FROM [UserRoles] AS [u]
+WHERE [u].[UserID] = @__potato_UsId_0
+2024-09-03 18:52:21.502 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__potato_UsId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Role]
+FROM [UserRoles] AS [u]
+WHERE [u].[UserID] = @__potato_UsId_0
+2024-09-03 18:52:21.505 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[@__potato_UsId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Role]
+FROM [UserRoles] AS [u]
+WHERE [u].[UserID] = @__potato_UsId_0
+2024-09-03 18:52:21.506 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[@__potato_UsId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Role]
+FROM [UserRoles] AS [u]
+WHERE [u].[UserID] = @__potato_UsId_0
+2024-09-03 18:52:21.558 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-03 18:52:21.558 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-03 18:52:21.558 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-03 18:52:21.558 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-03 18:52:21.558 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-03 18:52:21.558 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-03 18:52:21.559 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-03 18:52:21.558 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-03 18:52:21.573 +03:00 [INF] Executed action Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project) in 581.8435ms
+2024-09-03 18:52:21.573 +03:00 [INF] Executed action Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project) in 1096.1643ms
+2024-09-03 18:52:21.573 +03:00 [INF] Executed action Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project) in 761.0501ms
+2024-09-03 18:52:21.573 +03:00 [INF] Executed action Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project) in 440.8144ms
+2024-09-03 18:52:21.573 +03:00 [INF] Executed endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:52:21.573 +03:00 [INF] Executed action Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project) in 909.3058ms
+2024-09-03 18:52:21.573 +03:00 [INF] Executed action Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project) in 107.8155ms
+2024-09-03 18:52:21.573 +03:00 [INF] Executed action Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project) in 258.5701ms
+2024-09-03 18:52:21.574 +03:00 [INF] Executed endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:52:21.573 +03:00 [INF] Executed action Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project) in 2679.6271ms
+2024-09-03 18:52:21.573 +03:00 [INF] Executed endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:52:21.573 +03:00 [INF] Executed endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:52:21.573 +03:00 [INF] Executed endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:52:21.574 +03:00 [INF] Executed endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:52:21.574 +03:00 [INF] Executed endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:52:21.574 +03:00 [INF] Executed endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:52:21.592 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44389/api/User/Login - 200 null application/json; charset=utf-8 1130.966ms
+2024-09-03 18:52:21.592 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44389/api/User/Login - 200 null application/json; charset=utf-8 2839.3805ms
+2024-09-03 18:52:21.593 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44389/api/User/Login - 200 null application/json; charset=utf-8 612.108ms
+2024-09-03 18:52:21.592 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44389/api/User/Login - 200 null application/json; charset=utf-8 943.2283ms
+2024-09-03 18:52:21.593 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44389/api/User/Login - 200 null application/json; charset=utf-8 471.6898ms
+2024-09-03 18:52:21.593 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44389/api/User/Login - 200 null application/json; charset=utf-8 288.7213ms
+2024-09-03 18:52:21.593 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44389/api/User/Login - 200 null application/json; charset=utf-8 791.0195ms
+2024-09-03 18:52:21.593 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44389/api/User/Login - 200 null application/json; charset=utf-8 139.3673ms
+2024-09-03 18:52:25.022 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44389/api/Products - null null
+2024-09-03 18:52:25.023 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:52:25.025 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44389/api/Products - 204 null null 2.4637ms
+2024-09-03 18:52:25.026 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/api/Products - null null
+2024-09-03 18:52:25.102 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:52:25.102 +03:00 [INF] Executing endpoint 'Asp_Core_Api_Project.Controllers.ProductsController.GetAllProduct (Asp Core Api Project)'
+2024-09-03 18:52:25.107 +03:00 [INF] Route matched with {action = "GetAllProduct", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAllProduct() on controller Asp_Core_Api_Project.Controllers.ProductsController (Asp Core Api Project).
+2024-09-03 18:52:25.125 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[p_id], [p].[c_id], [p].[p_des], [p].[p_image], [p].[p_name], [p].[p_pric]
+FROM [products] AS [p]
+2024-09-03 18:52:25.159 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Asp_Core_Api_Project.Models.Product, Asp Core Api Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 18:52:25.184 +03:00 [INF] Executed action Asp_Core_Api_Project.Controllers.ProductsController.GetAllProduct (Asp Core Api Project) in 76.6581ms
+2024-09-03 18:52:25.184 +03:00 [INF] Executed endpoint 'Asp_Core_Api_Project.Controllers.ProductsController.GetAllProduct (Asp Core Api Project)'
+2024-09-03 18:52:25.185 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/api/Products - 200 null application/json; charset=utf-8 158.0797ms
+2024-09-03 18:53:30.498 +03:00 [INF] User profile is available. Using 'C:\Users\Orange\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-03 18:53:30.651 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/swagger/index.html - null null
+2024-09-03 18:53:30.696 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-03 18:53:30.696 +03:00 [INF] Hosting environment: Development
+2024-09-03 18:53:30.696 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\Core-Tasks\Asp Core Api Project\Asp Core Api Project
+2024-09-03 18:53:30.832 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/swagger/index.html - 200 null text/html;charset=utf-8 182.4018ms
+2024-09-03 18:53:30.862 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/swagger/index.js - null null
+2024-09-03 18:53:30.862 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-03 18:53:30.867 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 4.2071ms
+2024-09-03 18:53:30.869 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/swagger/index.js - 200 null application/javascript;charset=utf-8 6.8694ms
+2024-09-03 18:53:30.870 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/_vs/browserLink - null null
+2024-09-03 18:53:30.921 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.0774ms
+2024-09-03 18:53:30.960 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/swagger/v1/swagger.json - null null
+2024-09-03 18:53:31.080 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 119.7017ms
+2024-09-03 18:53:59.043 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44389/api/User/Login - multipart/form-data; boundary=----WebKitFormBoundarynANg3bCPmxASMKLZ 244
+2024-09-03 18:53:59.106 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:53:59.108 +03:00 [INF] Executing endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:53:59.121 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Asp_Core_Api_Project.DTOs.userRequestDOT) on controller Asp_Core_Api_Project.Controllers.UserController (Asp Core Api Project).
+2024-09-03 18:54:00.318 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[@__user_UsEm_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[us_id], [u].[PasswordHash], [u].[PasswordSalt], [u].[us_em], [u].[us_name], [u].[us_pas]
+FROM [users] AS [u]
+WHERE [u].[us_em] = @__user_UsEm_0
+2024-09-03 18:54:00.405 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__potato_UsId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Role]
+FROM [UserRoles] AS [u]
+WHERE [u].[UserID] = @__potato_UsId_0
+2024-09-03 18:54:00.443 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-03 18:54:00.453 +03:00 [INF] Executed action Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project) in 1327.5443ms
+2024-09-03 18:54:00.453 +03:00 [INF] Executed endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:54:00.463 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44389/api/User/Login - 200 null application/json; charset=utf-8 1419.9088ms
+2024-09-03 18:54:07.346 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44389/api/Products - null null
+2024-09-03 18:54:07.351 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:54:07.353 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44389/api/Products - 204 null null 7.612ms
+2024-09-03 18:54:07.355 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/api/Products - null null
+2024-09-03 18:54:07.396 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:54:07.397 +03:00 [INF] Executing endpoint 'Asp_Core_Api_Project.Controllers.ProductsController.GetAllProduct (Asp Core Api Project)'
+2024-09-03 18:54:07.400 +03:00 [INF] Route matched with {action = "GetAllProduct", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAllProduct() on controller Asp_Core_Api_Project.Controllers.ProductsController (Asp Core Api Project).
+2024-09-03 18:54:07.430 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[p_id], [p].[c_id], [p].[p_des], [p].[p_image], [p].[p_name], [p].[p_pric]
+FROM [products] AS [p]
+2024-09-03 18:54:07.450 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Asp_Core_Api_Project.Models.Product, Asp Core Api Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 18:54:07.462 +03:00 [INF] Executed action Asp_Core_Api_Project.Controllers.ProductsController.GetAllProduct (Asp Core Api Project) in 60.8142ms
+2024-09-03 18:54:07.462 +03:00 [INF] Executed endpoint 'Asp_Core_Api_Project.Controllers.ProductsController.GetAllProduct (Asp Core Api Project)'
+2024-09-03 18:54:07.462 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/api/Products - 200 null application/json; charset=utf-8 107.2207ms
+2024-09-03 18:54:20.803 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44389/api/User/Login - multipart/form-data; boundary=----WebKitFormBoundaryLlAT9PxA8oA6c4pL 244
+2024-09-03 18:54:20.806 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:54:20.806 +03:00 [INF] Executing endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:54:20.807 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Asp_Core_Api_Project.DTOs.userRequestDOT) on controller Asp_Core_Api_Project.Controllers.UserController (Asp Core Api Project).
+2024-09-03 18:54:20.891 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_UsEm_0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[us_id], [u].[PasswordHash], [u].[PasswordSalt], [u].[us_em], [u].[us_name], [u].[us_pas]
+FROM [users] AS [u]
+WHERE [u].[us_em] = @__user_UsEm_0
+2024-09-03 18:54:20.892 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__potato_UsId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Role]
+FROM [UserRoles] AS [u]
+WHERE [u].[UserID] = @__potato_UsId_0
+2024-09-03 18:54:20.893 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-03 18:54:20.893 +03:00 [INF] Executed action Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project) in 86.3056ms
+2024-09-03 18:54:20.893 +03:00 [INF] Executed endpoint 'Asp_Core_Api_Project.Controllers.UserController.Login (Asp Core Api Project)'
+2024-09-03 18:54:20.894 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44389/api/User/Login - 200 null application/json; charset=utf-8 90.8811ms
+2024-09-03 18:54:22.834 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44389/api/Products - null null
+2024-09-03 18:54:22.835 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:54:22.835 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44389/api/Products - 204 null null 1.7923ms
+2024-09-03 18:54:22.837 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/api/Products - null null
+2024-09-03 18:54:22.839 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:54:22.840 +03:00 [INF] Executing endpoint 'Asp_Core_Api_Project.Controllers.ProductsController.GetAllProduct (Asp Core Api Project)'
+2024-09-03 18:54:22.840 +03:00 [INF] Route matched with {action = "GetAllProduct", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAllProduct() on controller Asp_Core_Api_Project.Controllers.ProductsController (Asp Core Api Project).
+2024-09-03 18:54:22.843 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[p_id], [p].[c_id], [p].[p_des], [p].[p_image], [p].[p_name], [p].[p_pric]
+FROM [products] AS [p]
+2024-09-03 18:54:22.843 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Asp_Core_Api_Project.Models.Product, Asp Core Api Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 18:54:22.844 +03:00 [INF] Executed action Asp_Core_Api_Project.Controllers.ProductsController.GetAllProduct (Asp Core Api Project) in 3.4551ms
+2024-09-03 18:54:22.844 +03:00 [INF] Executed endpoint 'Asp_Core_Api_Project.Controllers.ProductsController.GetAllProduct (Asp Core Api Project)'
+2024-09-03 18:54:22.844 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/api/Products - 200 null application/json; charset=utf-8 7.4307ms
+2024-09-03 18:54:25.985 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/api/Products - null null
+2024-09-03 18:54:25.988 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:54:25.988 +03:00 [INF] Executing endpoint 'Asp_Core_Api_Project.Controllers.ProductsController.GetAllProduct (Asp Core Api Project)'
+2024-09-03 18:54:25.988 +03:00 [INF] Route matched with {action = "GetAllProduct", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAllProduct() on controller Asp_Core_Api_Project.Controllers.ProductsController (Asp Core Api Project).
+2024-09-03 18:54:25.991 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[p_id], [p].[c_id], [p].[p_des], [p].[p_image], [p].[p_name], [p].[p_pric]
+FROM [products] AS [p]
+2024-09-03 18:54:25.991 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Asp_Core_Api_Project.Models.Product, Asp Core Api Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 18:54:25.992 +03:00 [INF] Executed action Asp_Core_Api_Project.Controllers.ProductsController.GetAllProduct (Asp Core Api Project) in 3.5358ms
+2024-09-03 18:54:25.992 +03:00 [INF] Executed endpoint 'Asp_Core_Api_Project.Controllers.ProductsController.GetAllProduct (Asp Core Api Project)'
+2024-09-03 18:54:25.993 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/api/Products - 200 null application/json; charset=utf-8 7.0897ms
+2024-09-03 18:54:36.883 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44389/api/Products - null null
+2024-09-03 18:54:36.883 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:54:36.884 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44389/api/Products - 204 null null 0.9339ms
+2024-09-03 18:54:36.887 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44389/api/Products - null null
+2024-09-03 18:54:36.888 +03:00 [INF] CORS policy execution successful.
+2024-09-03 18:54:36.888 +03:00 [INF] Executing endpoint 'Asp_Core_Api_Project.Controllers.ProductsController.GetAllProduct (Asp Core Api Project)'
+2024-09-03 18:54:36.888 +03:00 [INF] Route matched with {action = "GetAllProduct", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAllProduct() on controller Asp_Core_Api_Project.Controllers.ProductsController (Asp Core Api Project).
+2024-09-03 18:54:36.891 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[p_id], [p].[c_id], [p].[p_des], [p].[p_image], [p].[p_name], [p].[p_pric]
+FROM [products] AS [p]
+2024-09-03 18:54:36.892 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Asp_Core_Api_Project.Models.Product, Asp Core Api Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-03 18:54:36.892 +03:00 [INF] Executed action Asp_Core_Api_Project.Controllers.ProductsController.GetAllProduct (Asp Core Api Project) in 3.7837ms
+2024-09-03 18:54:36.892 +03:00 [INF] Executed endpoint 'Asp_Core_Api_Project.Controllers.ProductsController.GetAllProduct (Asp Core Api Project)'
+2024-09-03 18:54:36.892 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44389/api/Products - 200 null application/json; charset=utf-8 5.3023ms

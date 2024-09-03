@@ -122,13 +122,18 @@ namespace Asp_Core_Api_Project.Controllers
             {
                 return Unauthorized("bad!!!");
             }
-            
-            
-            var Roles = _db.UserRoles.Where(x => x.UserId == potato.UsId).Select(x => x.Role).ToList(); 
-            var token = _tokenGenerator.GenerateToken(user.UsName, Roles);
-             
+
+
+            var Roles = _db.UserRoles.Where(x => x.UserId == potato.UsId).Select(x => x.Role).ToList();
+
+            // Use a fallback value for UsName if it's null or empty
+            string userName = string.IsNullOrEmpty(user.UsName) ? "Guest" : user.UsName;
+
+            var token = _tokenGenerator.GenerateToken(userName, Roles);
+
             return Ok(new { Token = token });
-            
+
+
 
         }
 
