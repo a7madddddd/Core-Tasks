@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Data;
 
 namespace Asp_Core_Api_Project.Controllers
 {
@@ -14,11 +15,14 @@ namespace Asp_Core_Api_Project.Controllers
     {
         private readonly MyDbContext _db;
         private readonly ILogger<UserController> _logger;
+        private readonly TokenGenerator _tokenGenerator;
 
-        public UserController(MyDbContext db, ILogger<UserController> logger)
+
+        public UserController(MyDbContext db, ILogger<UserController> logger, TokenGenerator tokenGenerator)
         {
             _db = db;
             _logger = logger;
+            _tokenGenerator = tokenGenerator;
         }
 
         [HttpGet]
@@ -98,7 +102,12 @@ namespace Asp_Core_Api_Project.Controllers
 
                 Directory.CreateDirectory(imagesFolderUSer);
             }
+            var userRole = new UserRole
+            {
 
+                UserId = data.UsId,
+                Role = "Admin"
+            };
             _db.Users.Add(data);
             _db.SaveChanges();
             return Ok();
@@ -113,7 +122,14 @@ namespace Asp_Core_Api_Project.Controllers
             {
                 return Unauthorized("bad!!!");
             }
-            return Ok("good!!");
+            
+            
+            var Roles = _db.UserRoles.Where(x => x.UserId == potato.UsId).Select(x => x.Role).ToList(); 
+            var token = _tokenGenerator.GenerateToken(user.UsName, Roles);
+             
+            return Ok(new { Token = token });
+            
+
         }
 
         [HttpPut("{id}")]
@@ -135,7 +151,6 @@ namespace Asp_Core_Api_Project.Controllers
 
             return Ok();
         }
-
 
     }
 }

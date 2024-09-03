@@ -503,20 +503,15 @@
   },
   {
     "ContainingType": "Asp_Core_Api_Project.Controllers.ValuesController",
-    "Method": "result",
+    "Method": "Math",
     "RelativePath": "api/Values",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "n1",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "n2",
-        "Type": "System.Int32",
+        "Name": "nums",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],

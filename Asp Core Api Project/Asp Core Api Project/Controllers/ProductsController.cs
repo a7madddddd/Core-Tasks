@@ -1,5 +1,6 @@
 ﻿using Asp_Core_Api_Project.DTOs;
 using Asp_Core_Api_Project.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -18,6 +19,7 @@ namespace Asp_Core_Api_Project.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public ActionResult GetAllProduct()
         {
             var AllProducts = _db.Products.ToList();

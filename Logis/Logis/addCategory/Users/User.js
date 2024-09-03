@@ -8,9 +8,10 @@ async function loginUser() {
     let response = await fetch(url, {
         method: "POST",
         body: formData
-
     });
+    var result= await response.json();
     if (response.ok) {
+        localStorage.setItem('jwtToken', result.token);
         alert('login succssfuly')
     }
     else

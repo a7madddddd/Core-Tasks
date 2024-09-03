@@ -1,6 +1,15 @@
 async function getallProducts() {
   let url = "https://localhost:44389/api/Products";
-  let request = await fetch(url);
+  var getToken = localStorage.getItem("jwtToken");
+  if (getToken == null){
+
+    alert("plz login")
+  }
+  const request = await fetch(url, {
+    headers: {
+      "Authorization": `Bearer ${getToken}`
+    }
+  });
 
   let data = await request.json();
   console.log(data)
