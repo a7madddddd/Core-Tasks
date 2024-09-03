@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Asp Core Api Project.csproj": {}
+    "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Asp Core Api Project.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Asp Core Api Project.csproj": {
+    "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Asp Core Api Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Asp Core Api Project.csproj",
+        "projectUniqueName": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Asp Core Api Project.csproj",
         "projectName": "Asp Core Api Project",
-        "projectPath": "c:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Asp Core Api Project.csproj",
+        "projectPath": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\Asp Core Api Project.csproj",
         "packagesPath": "C:\\Users\\Orange\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\obj\\",
+        "outputPath": "C:\\Users\\Orange\\Desktop\\Core-Tasks\\Asp Core Api Project\\Asp Core Api Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

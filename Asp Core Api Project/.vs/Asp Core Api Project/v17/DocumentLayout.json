@@ -138,7 +138,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -165,10 +165,6 @@
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "TokenGenerator.cs",
@@ -178,8 +174,7 @@
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\TokenGenerator.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAuwBUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T13:28:23.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T13:28:23.935Z"
             },
             {
               "$type": "Document",
@@ -191,8 +186,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Asp Core Api Project.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-09-03T13:23:23.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T13:23:23.614Z"
             },
             {
               "$type": "Document",
@@ -204,8 +198,7 @@
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\passwrdHash.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T14:28:25.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-01T14:28:25.867Z"
             },
             {
               "$type": "Document",
@@ -230,8 +223,7 @@
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\EditCartItemRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:38:19.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T14:38:19.056Z"
             },
             {
               "$type": "Document",
@@ -243,8 +235,7 @@
               "RelativeToolTip": "Asp Core Api Project\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-29T08:58:38.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T08:58:38.379Z"
             },
             {
               "$type": "Document",
@@ -256,8 +247,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Asp Core Api Project.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-29T08:56:30.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T08:56:30.41Z"
             },
             {
               "$type": "Document",
@@ -269,8 +259,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Controllers\\LogController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T08:40:41.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T08:40:41.545Z"
             },
             {
               "$type": "Document",
@@ -282,8 +271,7 @@
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\AddItemsRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T19:20:09.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T19:20:09.383Z"
             },
             {
               "$type": "Document",
@@ -295,8 +283,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\Cart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T17:44:27.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T17:44:27.498Z"
             },
             {
               "$type": "Document",
@@ -308,8 +295,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Controllers\\CartItems.cs",
               "ViewState": "AgIAACQAAAAAAAAAAADwvxoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T17:27:09.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T17:27:09.093Z"
             },
             {
               "$type": "Document",
@@ -321,8 +307,7 @@
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\CartItemRsposnceDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T17:18:57.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T17:18:57.461Z"
             },
             {
               "$type": "Document",
@@ -334,8 +319,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\CartItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T17:17:14.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T17:17:14.688Z"
             },
             {
               "$type": "Document",
@@ -369,8 +353,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Controllers\\ValuesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T06:06:52.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T06:06:52.611Z"
             },
             {
               "$type": "Document",
@@ -382,8 +365,7 @@
               "RelativeToolTip": "Asp Core Api Project\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T07:47:47.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T07:47:47.483Z"
             },
             {
               "$type": "Document",
@@ -395,8 +377,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T07:20:59.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T07:20:59.501Z"
             },
             {
               "$type": "Document",
@@ -408,8 +389,7 @@
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\CategoryReqeust.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:07:23.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T15:07:23.317Z"
             },
             {
               "$type": "Document",
@@ -421,8 +401,7 @@
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\userRequestDOT.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:54:30.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T13:54:30.188Z"
             },
             {
               "$type": "Document",
@@ -434,8 +413,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\MoreProduct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T08:19:30.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T08:19:30.406Z"
             },
             {
               "$type": "Document",
@@ -447,8 +425,7 @@
               "RelativeToolTip": "Asp Core Api Project\\DTOs\\postProducts.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T07:56:06.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T07:56:06.378Z"
             },
             {
               "$type": "Document",
@@ -460,8 +437,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T07:50:19.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T07:50:19.36Z"
             },
             {
               "$type": "Document",
@@ -473,8 +449,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T07:44:53.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T07:44:53.431Z"
             },
             {
               "$type": "Document",
@@ -486,8 +461,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T06:36:59.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T06:36:59.784Z"
             },
             {
               "$type": "Document",
@@ -499,8 +473,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Controllers\\OrdersController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T14:51:59.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T14:51:59.8Z"
             },
             {
               "$type": "Document",
@@ -512,8 +485,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Controllers\\UserController.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAA2wHYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T14:39:06.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T14:39:06.835Z"
             },
             {
               "$type": "Document",
@@ -525,8 +497,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAAGgAAAAAAAAAAAAwwBUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T14:38:06.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T14:38:06.277Z"
             },
             {
               "$type": "Document",
@@ -538,8 +509,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAcwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T14:35:58.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T14:35:58.247Z"
             },
             {
               "$type": "Document",
@@ -551,8 +521,7 @@
               "RelativeToolTip": "Asp Core Api Project\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-23T14:33:38.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T14:33:38.627Z"
             },
             {
               "$type": "Document",
@@ -564,8 +533,7 @@
               "RelativeToolTip": "Asp Core Api Project\\Program.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T14:33:26.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T14:33:26.935Z"
             },
             {
               "$type": "Document",
@@ -577,8 +545,11 @@
               "RelativeToolTip": "Asp Core Api Project\\Models\\MyDbContext.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAWwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T14:32:57.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T14:32:57.644Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             }
           ]
         }

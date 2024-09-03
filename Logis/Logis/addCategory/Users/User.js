@@ -1,4 +1,23 @@
 //////////////////////// Login////////////////////////////////////
+// const url = "https://localhost:44389/api/User/Login";
+// const form = document.getElementById('LoginForm');
+// async function loginUser() {
+//     debugger
+//     event.preventDefault();
+//     let formData = new FormData(form);
+//     let response = await fetch(url, {
+//         method: "POST",
+//         body: formData
+//     });
+//     var result= await response.json();
+//     if (response.ok) {
+//         localStorage.setItem('jwtToken', result.token);
+//         alert('login succssfuly')
+//     }
+//     else
+//         alert('UNUTHARIZED')
+// }
+
 const url = "https://localhost:44389/api/User/Login";
 const form = document.getElementById('LoginForm');
 async function loginUser() {
@@ -9,13 +28,15 @@ async function loginUser() {
         method: "POST",
         body: formData
     });
-    var result= await response.json();
+    var result = await response.json();
     if (response.ok) {
         localStorage.setItem('jwtToken', result.token);
-        alert('login succssfuly')
+        alert('login successfully')
+        form.reset(); // Reset the form
+        window.location.href = '../allProducts.html' // Redirect to another page
     }
     else
-        alert('UNUTHARIZED')
+        alert('UNAUTHORIZED')
 }
 
 //////////////////////////// Register /////////////////////////////
@@ -33,10 +54,12 @@ async function registerUser() {
     });
     if (response.ok) {
         alert('Register succssfuly')
+        window.location.href = '../allProducts.html'
     }
     else{
         alert('Failed to Register')
     }
+    formData.reset();
 }
 //////////////////////////// user Info /////////////////////////////
 async function getData() {
